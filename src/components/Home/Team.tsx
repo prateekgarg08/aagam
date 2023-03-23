@@ -6,24 +6,47 @@ export const Team: FC<{}> = ({}) => {
       <div className="text-white text-3xl text-center ">CLSU TEAM</div>
 
       <div className="flex w-full h-full rounded-full sm:flex-col  sm:justify-center sm:align-center  xl:flex-row mt-14 ">
-        <div className="w-1/3 h-1/3 p-20 sm:flex sm:justify-center sm:align-center sm:w-auto">
-          <img
-            src="image_2.png"
-            alt="img"
-            className="rounded-full w-full h-30"
-          ></img>
+        <div className="xl:flex-col w-1/3 h-1/3 p-20 sm:flex-col sm:justify-center sm:align-center sm:w-auto">
+          <div className="sm:flex sm:justify-center sm:align-center">
+            <img
+              src="cpSir.png"
+              alt="img"
+            ></img>
+          </div>
+          <div className="p-2 first-letter:w-full h-auto text-2xl text-white flex align-center justify-center">
+            Puranjay Jodha
+          </div>
+          <div className="w-full h-auto text-xl text-white flex align-center justify-center">
+            College President
+          </div>
         </div>
-        <div className="w-1/3 h-1/3 p-20 sm:flex sm:justify-center sm:align-center sm:w-auto ">
-          <img
-            src="image_2.png"
-            alt="img"
-          ></img>
+        <div className="xl:flex-col w-1/3 h-1/3 p-20 sm:flex-col sm:justify-center sm:align-center sm:w-auto ">
+          <div className="sm:flex sm:justify-center sm:align-center">
+            <img
+              src="cpSir.png"
+              alt="img"
+            ></img>
+          </div>
+          <div className="p-2 first-letter:w-full h-auto text-2xl text-white flex align-center justify-center">
+            Kamlesh Sirvi
+          </div>
+          <div className="w-full h-auto text-xl text-white flex align-center justify-center">
+            College General Secratary
+          </div>
         </div>
-        <div className="w-1/3 h-1/3 p-20 sm:flex sm:justify-center sm:align-center sm:w-auto">
-          <img
-            src="image_3.svg"
-            alt="img"
-          ></img>
+        <div className="xl:flex-col w-1/3 h-1/3 p-20 sm:flex-col sm:justify-center sm:align-center sm:w-auto">
+          <div className="sm:flex sm:justify-center sm:align-center">
+            <img
+              src="cpSir.png"
+              alt="img"
+            ></img>
+          </div>
+          <div className="p-2 first-letter:w-full h-auto text-2xl text-white flex align-center justify-center">
+            Sachin Sharma
+          </div>
+          <div className="w-full h-auto text-xl text-white flex align-center justify-center">
+            College Joint Secratary
+          </div>
         </div>
       </div>
     </div>

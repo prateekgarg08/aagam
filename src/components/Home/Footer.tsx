@@ -14,7 +14,7 @@ export const Footer: FC<{}> = ({}) => {
             alt="img"
           ></img>
         </div>
-        <div className="flex h-4 p-2 pr-2 gap-4">
+        <div className="flex h-4 p-2 pr-2 gap-4 align-center justify-center p-2">
           <FaInstagram
             color="white"
             fontSize={'32px'}
