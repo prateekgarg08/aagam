@@ -10,7 +10,7 @@ export default function Home() {
         <title>Aagam</title>
         <meta
           name="description"
-          content="College Fest"
+          content="Colleg"
         />
         <meta
           name="viewport"
