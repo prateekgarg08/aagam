@@ -1,5 +1,9 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
+import { About } from '@/components/Home/About'
+import { Sponsor } from '@/components/Home/Sponsor'
+import { Team } from '@/components/Home/Team'
+import { Footer } from '@/components/Home/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +26,10 @@ export default function Home() {
         />
       </Head>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <About />
+      <Sponsor />
+      <Team />
+      <Footer />
     </>
   )
 }
