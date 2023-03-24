@@ -5,7 +5,7 @@ import React from 'react'
 function event() {
   return (
     <div
-      className="w-full h-screen
+      className="w-full h-full
      bg-black p-4"
     >
       <div className="text-center text-3xl text-white">EVENTS</div>
