@@ -6,8 +6,8 @@ export const Team: FC<{}> = ({}) => {
       <div className="text-white text-3xl text-center ">CLSU TEAM</div>
 
       <div className="flex w-full h-full rounded-full sm:flex-col  sm:justify-center sm:align-center  xl:flex-row mt-14 ">
-        <div className="xl:flex-col w-1/3 h-1/3 p-20 sm:flex-col sm:justify-center sm:align-center sm:w-auto">
-          <div className="sm:flex sm:justify-center sm:align-center">
+        <div className="xl:flex-col w-1/3 h-1/3 sm:flex-col sm:justify-center sm:align-center sm:w-auto">
+          <div className="flex items-center justify-center">
             <img
               src="cpSir.png"
               alt="img"
@@ -20,8 +20,8 @@ export const Team: FC<{}> = ({}) => {
             College President
           </div>
         </div>
-        <div className="xl:flex-col w-1/3 h-1/3 p-20 sm:flex-col sm:justify-center sm:align-center sm:w-auto ">
-          <div className="sm:flex sm:justify-center sm:align-center">
+        <div className="xl:flex-col w-1/3 h-1/3 sm:p-8 sm:flex-col sm:justify-center sm:align-center sm:w-auto ">
+          <div className="flex items-center justify-center">
             <img
               src="cpSir.png"
               alt="img"
@@ -34,8 +34,8 @@ export const Team: FC<{}> = ({}) => {
             College General Secratary
           </div>
         </div>
-        <div className="xl:flex-col w-1/3 h-1/3 p-20 sm:flex-col sm:justify-center sm:align-center sm:w-auto">
-          <div className="sm:flex sm:justify-center sm:align-center">
+        <div className="xl:flex-col w-1/3 h-1/3 sm:flex-col sm:justify-center sm:align-center sm:w-auto">
+          <div className="flex items-center justify-center">
             <img
               src="cpSir.png"
               alt="img"

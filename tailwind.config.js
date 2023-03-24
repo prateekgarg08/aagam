@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       borderRadius :{
           extraLarge:'12rem'
+      },
+      screens:{
+        'sm':{'max':'800px'}
       }
     },
   },
