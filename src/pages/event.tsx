@@ -1,4 +1,5 @@
 import { Event } from '@/components/Events/Event'
+import { Sidebar } from '@/components/Events/Sidebar'
 import React from 'react'
 
 function event() {
@@ -12,6 +13,7 @@ function event() {
         <Event />
         <Event />
         <Event />
+        <Sidebar />
       </div>
     </div>
   )
