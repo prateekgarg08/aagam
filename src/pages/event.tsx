@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 
 import { Event } from '@/components/Events/Event'
-
+import { EventNav } from '@/components/Events/EventNav'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function event() {
@@ -28,16 +28,18 @@ export default function event() {
         className=" h-full w-full
      bg-black p-4 "
       >
-        <div className="w-full h-full p-4 relative ">
+        <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
               <img src="Events.png" />
             </div>
             <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 ">
-              <img src="Arts&Craft.png" />
-              <img src="Cultural.png" />
-              <img src="FunEvents.png" />
-              <img src="Technical.png" />
+              <div className="text-white text-2xl">
+                <a href="#"> Arts & Cratf</a>
+              </div>
+              <div className="text-white text-2xl">Fun Events</div>
+              <div className="text-white text-2xl">Technical</div>
+              <div className="text-white text-2xl">Cultural</div>
             </div>
           </div>
 

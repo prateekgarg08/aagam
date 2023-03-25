@@ -18,14 +18,14 @@ module.exports = {
       height:{
         extra:'32rem'
       },
-      borderRadius :{
-          extraLarge:'12rem'
+      borderRadius: {
+        extraLarge: '12rem'
       },
       screens:{
         'sm':{'max':'800px'},
         // 'extra':{'max'}
       }
-    
+
     },
   },
   plugins: [],
