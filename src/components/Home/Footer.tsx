@@ -15,22 +15,26 @@ export const Footer: FC<{}> = ({}) => {
             alt="img"
           ></img>
         </div>
-        <div className="flex h-4 pr-2 gap-4 align-center justify-center p-2">
+        <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-4 align-center justify-center p-2">
           <FaInstagram
+            className="esm:text-xl"
             color="white"
-            fontSize={'40px'}
+            fontSize={'28px'}
           />
           <FaTwitter
             color="white"
-            fontSize={'40px'}
+            className="esm:text-xl"
+            fontSize={'28px'}
           />
           <FaLinkedin
             color="white"
-            fontSize={'40px'}
+            className="esm:text-xl"
+            fontSize={'28px'}
           />
           <FaYoutube
             color="white"
-            fontSize={'40px'}
+            className="esm:text-xl"
+            fontSize={'28px'}
           />
         </div>
       </div>
@@ -71,7 +75,7 @@ export const Footer: FC<{}> = ({}) => {
               href="#"
               className="text-xl text-white p-4"
             >
-              About
+              About Us
             </a>
           </div>
           <div className="p-2 sm:p-0">
@@ -82,7 +86,7 @@ export const Footer: FC<{}> = ({}) => {
               Teams
             </a>
           </div>
-          <div className="p-2">
+          <div className="p-2 sm:p-0">
             <a
               href="#"
               className="text-xl text-white p-2 sm:text-sm sm:p-0"
