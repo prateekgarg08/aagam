@@ -18,11 +18,16 @@ module.exports = {
       height:{
         extra:'32rem'
       },
+      fontSize:{
+         no:'0rem'
+      },
       borderRadius: {
         extraLarge: '12rem'
       },
       screens:{
         'sm':{'max':'800px'},
+        'msm':{'max':'1000px'},
+        'esm':{'max':'540px'}
         // 'extra':{'max'}
       }
 

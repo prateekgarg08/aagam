@@ -31,7 +31,14 @@ export default function Home() {
       {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>
        */}
       <div className="relative min-h-screen bg-black">
-        <Navbar />
+        <Navbar
+          n1="Home"
+          n2="Events"
+          n3="Sponser"
+          n4="Contact Us"
+          n5="Log in"
+          n6=""
+        />
         <Hero />
         <Glimpses />
         <About />

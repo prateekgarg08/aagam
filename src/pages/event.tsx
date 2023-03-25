@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
+import { Navbar } from '@/components/Common/Navbar'
 
 import { Event } from '@/components/Events/Event'
-import { EventNav } from '@/components/Events/EventNav'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function event() {
@@ -30,16 +30,24 @@ export default function event() {
       >
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
+            <Navbar
+              n1="Home"
+              n2="Arts & Craft"
+              n3="Fun events"
+              n4="Cultural"
+              n5="Technical"
+              n6="Log in"
+            />
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
-              <img src="Events.png" />
+              <div className="text-white text-5xl "> Events</div>
             </div>
             <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 ">
-              <div className="text-white text-2xl">
+              <div className="text-white text-2xl sm:text-no">
                 <a href="#"> Arts & Cratf</a>
               </div>
-              <div className="text-white text-2xl">Fun Events</div>
-              <div className="text-white text-2xl">Technical</div>
-              <div className="text-white text-2xl">Cultural</div>
+              <div className="text-white text-2xl sm:text-no">Fun Events</div>
+              <div className="text-white text-2xl sm:text-no">Technical</div>
+              <div className="text-white text-2xl sm:text-no">Cultural</div>
             </div>
           </div>
 
@@ -54,11 +62,11 @@ export default function event() {
         <div className="flex w-full h-full xl:flex-wrap p-5 sm:flex-col xl:flex-row sm:items-center">
           <Event
             i1="tresure.png"
-            i2="TreasureHunt.png"
+            i2="TreasureHunt"
           />
           <Event
             i1="tresure.png"
-            i2="RoboWar.png"
+            i2="RoboWar"
           />
           {/* <Event />  */}
         </div>

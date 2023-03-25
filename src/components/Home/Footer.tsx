@@ -9,54 +9,54 @@ export const Footer: FC<{}> = ({}) => {
   return (
     <div className="flex w-fullh-auto bg-black p-4">
       <div className="flex w-1/4 h-full bg-black flex-col ">
-        <div className="w-full h-14 flex align-center justify-center">
+        <div className="w-full h-14 sm:h-full flex align-center justify-center">
           <img
             src="/assets/logo/new.svg"
             alt="img"
           ></img>
         </div>
-        <div className="flex h-4 p-2 pr-2 gap-4 align-center justify-center p-2">
+        <div className="flex h-4 pr-2 gap-4 align-center justify-center p-2">
           <FaInstagram
             color="white"
-            fontSize={'32px'}
+            fontSize={'40px'}
           />
           <FaTwitter
             color="white"
-            fontSize={'32px'}
+            fontSize={'40px'}
           />
           <FaLinkedin
             color="white"
-            fontSize={'32px'}
+            fontSize={'40px'}
           />
           <FaYoutube
             color="white"
-            fontSize={'32px'}
+            fontSize={'40px'}
           />
         </div>
       </div>
 
       <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
-          <div className="p-4">
+          <div className="p-4 sm:p-2">
             <a
               href="#"
-              className="text-xl text-white p-4"
+              className="text-xl text-white p-4 m:text-sm sm:p-2"
             >
               EVENTS
             </a>
           </div>
-          <div className="p-2">
+          <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-xl text-white p-2"
+              className="text-xl text-white p-2 sm:text-sm sm:p-0"
             >
               Treasure Hunt
             </a>
           </div>
-          <div className="p-2">
+          <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-xl text-white p-2"
+              className="text-xl text-white p-2 sm:text-sm sm:p-0"
             >
               Dare 2 Win
             </a>
@@ -66,7 +66,7 @@ export const Footer: FC<{}> = ({}) => {
 
       <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
-          <div className="p-4">
+          <div className="p-4 sm:p-2">
             <a
               href="#"
               className="text-xl text-white p-4"
@@ -74,10 +74,10 @@ export const Footer: FC<{}> = ({}) => {
               About
             </a>
           </div>
-          <div className="p-2">
+          <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-xl text-white p-2"
+              className="text-xl text-white p-2 sm:text-sm sm:p-0"
             >
               Teams
             </a>
@@ -85,7 +85,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2">
             <a
               href="#"
-              className="text-xl text-white p-2"
+              className="text-xl text-white p-2 sm:text-sm sm:p-0"
             >
               Contact us
             </a>
@@ -95,9 +95,11 @@ export const Footer: FC<{}> = ({}) => {
 
       <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
-          <div className="text-xl text-white p-4">Legal</div>
-          <div className="text-xl text-white p-2">Privacy</div>
-          <div className="text-xl text-white p-2">Terms</div>
+          <div className="text-xl text-white p-4 sm:p-2 ">Legal</div>
+          <div className="text-xl text-white p-2 sm:text-sm sm:p-0">
+            Privacy
+          </div>
+          <div className="text-xl text-white p-2 sm:text-sm sm:p-0">Terms</div>
         </div>
       </div>
     </div>
