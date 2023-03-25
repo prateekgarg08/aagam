@@ -7,6 +7,7 @@ import { Footer } from '@/components/Home/Footer'
 import { Navbar } from '@/components/Common/Navbar'
 import { Hero } from '@/components/Home/Hero'
 import { Glimpses } from '@/components/Home/Glimpses'
+import { Homeevent } from '@/components/Home/Homeevent'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,9 +35,10 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Glimpses />
+        <Homeevent />
         <About />
         <Sponsor />
-        <Team />
+
         <Footer />
       </div>
     </>

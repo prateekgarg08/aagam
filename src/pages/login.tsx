@@ -9,7 +9,7 @@ export default function Register() {
   //? contexts
   return (
     <div className="flex items-center justify-center h-screen w-full bg-bgBlack">
-      <div className="rounded-3xl shadow-lg bg-white py-8 px-12 flex flex-col items-center gap-4 w-2/5">
+      <div className="rounded-3xl shadow-lg bg-white py-8 px-12 esm:px-2 esm:py-2 flex flex-col items-center gap-4 lg:w-2/5 w-3/4">
         <p className="text-3xl font-bold text-primary">Login</p>
         <Input
           type="text"

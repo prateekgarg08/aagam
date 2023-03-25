@@ -39,7 +39,7 @@ export default function event() {
             // n6="Log in"
             />
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
-              <div className="text-white text-5xl "> Events</div>
+              <div className="text-white text-5xl sm:text-no "> Events</div>
             </div>
             <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 ">
               <div className="text-white text-2xl  sm:text-no">
@@ -58,41 +58,146 @@ export default function event() {
           />
         </div>
 
-        <div className="text-center text-3xl text-white font-bold mt-4 ">
-          Arts & Craft
-        </div>
-        <div className="flex w-full h-full xl:flex-wrap p-5 sm:flex-col xl:flex-row sm:items-center">
-          <Event
-            i1="tresure.png"
-            i2="TreasureHunt"
-          />
-          <Event
-            i1="tresure.png"
-            i2="RoboWar"
-          />
-          {/* <Event />  */}
+        <div
+          className=" h-full w-full
+     bg-black p-4 "
+        >
+          <div className="text-center text-3xl text-white font-bold mt-4 ">
+            Technical Events
+          </div>
+          <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
+            <Event
+              i1="tresure.png"
+              i2="Tresure Hunt"
+            />
+            <Event
+              i1="tresure.png"
+              i2="Robo War"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="E-Sports"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Coding Competition"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Picture Patch"
+            />
+          </div>
         </div>
 
-        {/* <div className="text-center text-3xl text-white">Cultural</div>
-        <div className="flex w-full h-full xl:flex-wrap p-5 sm:flex-col xl:flex-row sm:items-center">
-          <Event />
-          <Event />
-          <Event />
+        <div
+          className=" h-full w-full
+     bg-black p-4 "
+        >
+          <div className="text-center text-3xl text-white font-bold mt-4 ">
+            Cultural
+          </div>
+          <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
+            <Event
+              i1="tresure.png"
+              i2="Mono Acting"
+            />
+            <Event
+              i1="tresure.png"
+              i2="Skit"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Poetry"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Debate"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="OpenMic"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="InQuizition"
+            />
+          </div>
         </div>
 
-        <div className="text-center text-3xl text-white">Technical</div>
-        <div className="flex w-full h-full xl:flex-wrap p-5 sm:flex-col xl:flex-row sm:items-center">
-          <Event />
-          <Event />
-          <Event />
+        <div
+          className=" h-full w-full
+     bg-black p-4 "
+        >
+          <div className="text-center text-3xl text-white font-bold mt-4 ">
+            Art & Crafts
+          </div>
+          <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
+            <Event
+              i1="tresure.png"
+              i2="Rangoli Making"
+            />
+            <Event
+              i1="tresure.png"
+              i2="Face Painting"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Sketching"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Cartooning"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Project Expo"
+            />
+          </div>
         </div>
 
-        <div className="text-center text-3xl text-white">FunEvent</div>
-        <div className="flex w-full h-full xl:flex-wrap p-5 sm:flex-col xl:flex-row sm:items-center">
-          <Event />
-          <Event />
-          <Event />
-        </div> */}
+        <div
+          className=" h-full w-full
+     bg-black p-4 "
+        >
+          <div className="text-center text-3xl text-white font-bold mt-4 ">
+            Novelty Games
+          </div>
+          <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
+            <Event
+              i1="tresure.png"
+              i2="Slow Cycling"
+            />
+            <Event
+              i1="tresure.png"
+              i2="Leg Cycling"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Gram"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="Balloon Shooting"
+            />
+
+            <Event
+              i1="tresure.png"
+              i2="BasketBall"
+            />
+          </div>
+        </div>
       </div>
     </>
   )
