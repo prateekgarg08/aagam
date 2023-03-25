@@ -28,16 +28,9 @@ export default function event() {
         className=" h-full w-full
      bg-black p-4 "
       >
+        <Navbar />
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
-            <Navbar
-            // n1="Home"
-            // n2="Arts & Craft"
-            // n3="Fun events"
-            // n4="Cultural"
-            // n5="Technical"
-            // n6="Log in"
-            />
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
               <div className="text-white text-5xl  "> Events</div>
             </div>
@@ -82,7 +75,8 @@ export default function event() {
 
             <Event
               i1="tresure.png"
-              i2="Coding Competition"
+              i2="Coding 
+              Competition"
             />
 
             <Event

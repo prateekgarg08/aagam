@@ -17,7 +17,7 @@ export const Event = (props: Im) => {
           <div className="w-full h-1 ">
             <div className=" flex m-4 items-center justify-center b  ">
               <div className="w-full h-full flex items-center justify-center">
-                <div className="w-full pb-2 esm:pb-0 h-full font-bold text-center md:text-3xl esm:text-sm sm:text-xl text-bold  ">
+                <div className="w-full pb-2 esm:pb-0 h-full font-bold text-center md:text-3xl esm:text-xl sm:text-xl text-bold  ">
                   {props.i2}
                 </div>
               </div>
