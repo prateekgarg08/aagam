@@ -17,15 +17,14 @@ export const Event = (props: Im) => {
           <div className="w-full h-1 ">
             <div className=" flex m-4 items-center justify-center b  ">
               <div className="w-full h-full flex items-center justify-center">
-                <div className="w-3/4 pb-2 esm:pb-0 h-full text-center text-3xl esm:text-xl  ">
+                <div className="w-3/4 pb-2 esm:pb-0 h-full font-bold text-center text-3xl esm:text-xl  ">
                   {props.i2}
                 </div>
               </div>
             </div>
             <div className=" flex mb-4  items-center justify-center ">
               <div className="w-full h-full flex items-center justify-center">
-                <div className="w-3/4 pb-2 rounded-lg bg-orange-300 esm:text-xl esm:pb-0 h-full text-center text-3xl border-2 border-black ">
-                  {' '}
+                <div className="w-3/4 pb-2 rounded-lg bg-orange esm:text-xl font-bold esm:pb-0 h-full text-center text-3xl border-2 border-black ">
                   Register
                 </div>
               </div>

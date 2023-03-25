@@ -42,7 +42,7 @@ export default function event() {
               <div className="text-white text-5xl "> Events</div>
             </div>
             <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 ">
-              <div className="text-white text-2xl sm:text-no">
+              <div className="text-white text-2xl  sm:text-no">
                 <a href="#"> Arts & Cratf</a>
               </div>
               <div className="text-white text-2xl sm:text-no">Fun Events</div>
@@ -58,7 +58,9 @@ export default function event() {
           />
         </div>
 
-        <div className="text-center text-3xl text-white ">Arts & Craft</div>
+        <div className="text-center text-3xl text-white font-bold mt-4 ">
+          Arts & Craft
+        </div>
         <div className="flex w-full h-full xl:flex-wrap p-5 sm:flex-col xl:flex-row sm:items-center">
           <Event
             i1="tresure.png"

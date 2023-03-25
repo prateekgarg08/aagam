@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 export default function register() {
   return (
-    <div className="bg-br bg-cover gap-8 justify-center relative flex flex-col items-center z-20 w-full h-screen sm:h-full">
+    <div className="bg-br bg-cover gap-8 justify-center relative flex flex-col items-center z-20 w-full bg-reg h-screen sm:h-full">
       <div className="flex justify-center items-center w-full mt-16">
         <div className="text-3xl text-black text-center">REGISTRATION</div>
       </div>

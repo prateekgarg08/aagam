@@ -34,7 +34,8 @@ module.exports = {
       },
       colors: {
         orange: "#EF542E",
-        bgBlack: "black"
+        bgBlack: "black",
+        reg:'#c6b882'
 
       }
 
