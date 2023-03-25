@@ -31,12 +31,12 @@ export default function event() {
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
             <Navbar
-              n1="Home"
-              n2="Arts & Craft"
-              n3="Fun events"
-              n4="Cultural"
-              n5="Technical"
-              n6="Log in"
+            // n1="Home"
+            // n2="Arts & Craft"
+            // n3="Fun events"
+            // n4="Cultural"
+            // n5="Technical"
+            // n6="Log in"
             />
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
               <div className="text-white text-5xl "> Events</div>
