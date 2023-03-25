@@ -1,48 +1,41 @@
-export default function register() {
+import { Input } from '@/components/Common/Input'
+import { useState } from 'react'
+
+export default function Register() {
+  //? states
+  const [email, setEmail] = useState<string>('')
+  const [password, setPassword] = useState<string>('')
+
+  //? contexts
   return (
-    <div className="bg-br bg-cover gap-8 justify-center relative flex flex-col items-center z-20 w-full h-screen">
-      <div className="flex justify-center items-center w-full mt-8">
-        <div className="text-3xl text-black text-center">Log In</div>
+    <div className="flex items-center justify-center h-screen w-full bg-bgBlack">
+      <div className="rounded-3xl shadow-lg bg-white py-8 px-12 flex flex-col items-center gap-4 w-2/5">
+        <p className="text-3xl font-bold text-primary">Login</p>
+        <Input
+          type="text"
+          label="Email"
+          name="email"
+          placeholder="Enter your email"
+          required={true}
+          setValue={(e) => setEmail(e.target.value)}
+          value={email}
+        />
+        <Input
+          type="password"
+          label="Password"
+          name="password"
+          placeholder="Enter your password"
+          required={true}
+          setValue={(e) => setPassword(e.target.value)}
+          value={password}
+        />
+        <button
+          onClick={() => {}}
+          className="flex items-center gap-3 font-semibold text-white rounded-full px-8 py-2 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
+        >
+          <span className="">Login</span>
+        </button>
       </div>
-
-      <div className="w-4/5">
-        <div className="mt-8 mb-6 flex flex-col justify-between h-full w-full">
-          <div className="flex-col md:flex sm:flex md:flex-row justify-center items-center">
-            <div className="w-3/5 xl:w-1/2 sm:w-full flex-col  flex justify-center items-center">
-              <div className="m-4 w-full flex-col">
-                <div className="text-xl text-black">Name</div>
-                <input
-                  type="text"
-                  className="w-4/5 h-12 border-2 border-black"
-                />
-              </div>
-
-              <div className="m-4 w-full flex-col">
-                <div className="text-xl text-black">Email-Id</div>
-                <input
-                  type="text"
-                  className=" h-12 border-2 w-4/5 border-black"
-                />
-              </div>
-
-              <div className="m-4 w-full flex-col">
-                <div className="w-1/2 h-1/2 sm:w-1/2 sm:h-full p-3 border-2 border-black rounded-lg flex items-center justify-center">
-                  <div className="text-center text-3xl   text-black ">
-                    Log In
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <div className=" m-4 w-full h-full flex items-center justify-center">
-        <div className="w-1/4 h-1/2 sm:w-3/4 p-3 border-2 border-black rounded-lg flex items-center justify-center">
-          <div className="text-center text-3xl sm:text-xl  text-black ">
-            Log In
-          </div>
-        </div>
-      </div> */}
     </div>
   )
 }
