@@ -4,7 +4,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./public/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.{png,ts,jsx,tsx}",
  
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -12,6 +12,9 @@ module.exports = {
   theme: {
     extend: {
       // run 
+      backgroundImage:{
+       'br':"url('./regbg.png')",
+      },
       height:{
         extra:'32rem'
       },
@@ -19,7 +22,8 @@ module.exports = {
           extraLarge:'12rem'
       },
       screens:{
-        'sm':{'max':'800px'}
+        'sm':{'max':'800px'},
+        // 'extra':{'max'}
       }
     
     },
