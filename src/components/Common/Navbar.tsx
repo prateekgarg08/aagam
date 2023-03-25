@@ -6,7 +6,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 export const Navbar: FC<{}> = ({}) => {
   const [isMobileNavActive, setIsMobileNavActive] = useState(false)
   return (
-    <div className=" flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible">
+    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible py-3">
       <div className="logo bg-bgBlack">
         <img
           src="/assets/logo/new.svg"
