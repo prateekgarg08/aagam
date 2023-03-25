@@ -3,7 +3,7 @@ import { FC } from 'react'
 
 export const About: FC<{}> = ({}) => {
   return (
-    <div className="w-full h-full bg-black ">
+    <div className="w-full h-full bg-black mt-4">
       <h1 className="text-white text-3xl font-bold text-center">About fest</h1>
       <div className=" p-12 flex sm:flex-col xl:flex-row">
         <div className="w-1/2 sm:w-full sm:h-30 xl:h-96  sm: flex sm:justify-center sm:align-center p-2 ">

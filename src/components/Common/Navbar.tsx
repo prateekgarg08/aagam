@@ -20,41 +20,41 @@ export const Navbar: FC<{}> = ({}) => {
           className="lg:hidden text-3xl"
           onClick={() => setIsMobileNavActive(true)}
         >
-          <AiOutlineMenu />
+          <AiOutlineMenu color="white" />
         </div>
         <div
           className={`${
             isMobileNavActive ? 'flex' : 'hidden'
-          } absolute w-full top-0 text-orange bg-bgBlack left-0 z-10 flex-col space-y-5 text-xl h-full  py-2 lg:text-base lg:static items-center   lg:flex lg:flex-row lg:space-x-4 lg:space-y-0`}
+          } absolute w-full  top-0 text-orange left-0 z-10 flex-col space-y-5 text-xl h-full  py-2 lg:text-base lg:static items-center   lg:flex lg:flex-row lg:space-x-4 lg:space-y-0`}
         >
-          <div className="lg:hidden text-2xl font-bold  w-full flex flex-row-reverse">
+          <div className="lg:hidden text-2xl  text-white font-bold  w-full flex flex-row-reverse">
             <AiOutlineClose onClick={() => setIsMobileNavActive(false)} />
           </div>
           <a
             href="#"
-            className=""
+            className="text-white"
           >
             Home
           </a>
           <a
             href="#"
-            className=""
+            className="text-white"
           >
             Events
           </a>
           <a
             href="#"
-            className=""
+            className="text-white"
           >
             Sponsors
           </a>
           <a
             href="#"
-            className=""
+            className="text-white"
           >
             Contact Us
           </a>
-          <button className="rounded-2xl bg-orange text-black px-3 py-1">
+          <button className="rounded-2xl bg-orange text-white px-3 py-1">
             Log in
           </button>
         </div>
