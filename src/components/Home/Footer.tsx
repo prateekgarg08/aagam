@@ -3,7 +3,7 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
-import { LinkProps } from 'next/link'
+import Link, { LinkProps } from 'next/link'
 
 export const Footer: FC<{}> = ({}) => {
   return (
@@ -42,28 +42,28 @@ export const Footer: FC<{}> = ({}) => {
       <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
           <div className="p-4 sm:p-2">
-            <a
-              href="#"
+            <Link
+              href="/events"
               className="text-xl text-white p-4 m:text-sm sm:p-2"
             >
               EVENTS
-            </a>
+            </Link>
           </div>
           <div className="p-2 sm:p-0">
-            <a
-              href="#"
+            <Link
+              href="/events"
               className="text-xl text-white p-2 sm:text-sm sm:p-0"
             >
               Treasure Hunt
-            </a>
+            </Link>
           </div>
           <div className="p-2 sm:p-0">
-            <a
-              href="#"
+            <Link
+              href="/events"
               className="text-xl text-white p-2 sm:text-sm sm:p-0"
             >
               Dare 2 Win
-            </a>
+            </Link>
           </div>
         </div>
       </div>

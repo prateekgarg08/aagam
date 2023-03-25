@@ -1,8 +1,37 @@
 import { FC } from 'react'
 import React from 'react'
 import { Event } from '../Events/Event'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export const Homeevent: FC<{}> = ({}) => {
+  const routes = [
+    {
+      name: 'Technical',
+      img: 'tresure.png',
+      url: '/events',
+    },
+    {
+      name: 'Cultural',
+      img: 'tresure.png',
+      url: '/events',
+    },
+    {
+      name: 'Art & Craft',
+      img: 'tresure.png',
+      url: '/events',
+    },
+    {
+      name: 'Novelty',
+      img: 'tresure.png',
+      url: '/events',
+    },
+    {
+      name: 'Compitition',
+      img: 'tresure.png',
+      url: '/events',
+    },
+  ]
   return (
     <div
       className=" h-full w-full
@@ -12,7 +41,16 @@ export const Homeevent: FC<{}> = ({}) => {
         Events
       </div>
       <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
-        <Event
+        {routes.map((route) => {
+          return (
+            <Event
+              i1={route.img}
+              i2={route.name}
+            />
+          )
+        })}
+        {/* <Event
+
           i1="tresure.png"
           i2="Techical"
         />
@@ -34,7 +72,7 @@ export const Homeevent: FC<{}> = ({}) => {
         <Event
           i1="tresure.png"
           i2="Novelty Games"
-        />
+        /> */}
       </div>
     </div>
   )
