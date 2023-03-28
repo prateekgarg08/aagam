@@ -6,8 +6,8 @@ type Im = {
 }
 export const Event = (props: Im) => {
   return (
-    <div className="flex w-1/4 sm:w-1/2 esm:w-full m-4 h-extra esm:h-96 sm:m-4  bg-white   rounded-3xl xl:m-12 sm:pb-6 xl:pb-3 sm:flex hover:-translate-y-4 sm:justify-center sm:align-center ">
-      <div className="flex-col w-full h-full sm:h-90  ">
+    <div className="flex lg:w-1/4 sm:w-1/2 esm:w-full m-4 h-extra esm:h-80 sm:m-4  bg-white   rounded-3xl xl:m-12 sm:pb-6 xl:pb-3 sm:flex hover:-translate-y-4 sm:justify-center sm:align-center md:w-1/2 ">
+      <div className="flex-col w-full h-full sm:h-90">
         <div className="w-full h-3/4 bg-black">
           <img
             src={props.i1}
