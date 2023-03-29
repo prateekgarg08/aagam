@@ -28,8 +28,8 @@ export const Navbar: FC = () => {
   return (
     <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible py-3">
       <div className="logo bg-bgBlack">
-        <Image
-          src="/assets/logo/new.svg"
+        <img
+          src="logo.png"
           alt=""
           width={150}
           height={100}

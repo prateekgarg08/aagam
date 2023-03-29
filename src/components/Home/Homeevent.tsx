@@ -8,27 +8,27 @@ export const Homeevent: FC<{}> = ({}) => {
   const routes = [
     {
       name: 'Technical',
-      img: 'tresure.png',
+      img: 'thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Cultural',
-      img: 'tresure.png',
+      img: 'thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Art & Craft',
-      img: 'tresure.png',
+      img: 'thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Novelty',
-      img: 'tresure.png',
+      img: 'thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Compitition',
-      img: 'tresure.png',
+      img: 'thunt.jpeg',
       url: '/events',
     },
   ]

@@ -10,7 +10,7 @@ export default function event() {
   const routes = [
     {
       name: 'Treasure Hunt',
-      img: 'tresure.png',
+      img: 'thunt.jpeg',
       url: '/events',
     },
     {

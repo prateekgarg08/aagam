@@ -9,9 +9,9 @@ export const Footer: FC<{}> = ({}) => {
   return (
     <div className="flex w-fullh-auto bg-black p-4">
       <div className="flex w-1/4 h-full bg-black flex-col ">
-        <div className="w-full h-14 sm:h-full flex align-center justify-center">
+        <div className="w-6/8 h-14 sm:h-full flex align-center justify-center">
           <img
-            src="/assets/logo/new.svg"
+            src="logo.png"
             alt="img"
           ></img>
         </div>
@@ -44,7 +44,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-4 sm:p-2">
             <Link
               href="/events"
-              className="text-xl text-white p-4 m:text-sm sm:p-2"
+              className="text-gray-400 hover:text-gray-50 duration-100 "
             >
               EVENTS
             </Link>
@@ -52,7 +52,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <Link
               href="/events"
-              className="text-xl text-white p-2 sm:text-sm sm:p-0"
+              className="text-gray-400 hover:text-gray-50 duration-100 "
             >
               Treasure Hunt
             </Link>
@@ -60,7 +60,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <Link
               href="/events"
-              className="text-xl text-white p-2 sm:text-sm sm:p-0"
+              className="text-gray-400 hover:text-gray-50 duration-100"
             >
               Dare 2 Win
             </Link>
@@ -73,7 +73,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-4 sm:p-2">
             <a
               href="#"
-              className="text-xl text-white p-4"
+              className="text-gray-400 hover:text-gray-50 duration-100"
             >
               About Us
             </a>
@@ -81,7 +81,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-xl text-white p-2 sm:text-sm sm:p-0"
+              className="text-gray-400 hover:text-gray-50 duration-100"
             >
               Teams
             </a>
@@ -89,7 +89,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-xl text-white p-2 sm:text-sm sm:p-0"
+              className="text-gray-400 hover:text-gray-50 duration-100"
             >
               Contact us
             </a>
@@ -99,11 +99,15 @@ export const Footer: FC<{}> = ({}) => {
 
       <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
-          <div className="text-xl text-white p-4 sm:p-2 ">Legal</div>
-          <div className="text-xl text-white p-2 sm:text-sm sm:p-0">
+          <div className="p-2 sm:p-0 text-gray-400 hover:text-gray-50 duration-100">
+            Legal
+          </div>
+          <div className="p-2 sm:p-0 text-gray-400 hover:text-gray-50 duration-100">
             Privacy
           </div>
-          <div className="text-xl text-white p-2 sm:text-sm sm:p-0">Terms</div>
+          <div className="p-2 sm:p-0 text-gray-400 hover:text-gray-50 duration-100">
+            Terms
+          </div>
         </div>
       </div>
     </div>

@@ -11,7 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // run
+      boxShadow:{
+        sxl : '10 10px 10px 10px rgba(0, 0, 0, 0.3)'
+      },
       backgroundImage: {
         br: "url('./regbg.png')",
       },
@@ -30,6 +32,7 @@ module.exports = {
         esm: { max: '540px' },
       },
       colors: {
+        back:'#C7D3DC',
         primary: '#EF542D',
         secondary: '#F1781F',
         tertiary: '#DB3232',
