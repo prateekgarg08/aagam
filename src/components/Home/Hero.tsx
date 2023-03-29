@@ -9,7 +9,7 @@ export const Hero: FC<{}> = ({}) => {
         height={300}
         alt="banner"
       />
-      <button className="rounded-2xl bg-orange text-white text-xl px-4 py-1">
+      <button className="flex items-center gap-3 font-semibold text-white rounded-full px-3 py-2 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all">
         Register Now
       </button>
     </div>
