@@ -5,47 +5,58 @@ import { Navbar } from '@/components/Common/Navbar'
 import { Event } from '@/components/Events/Event'
 const inter = Inter({ subsets: ['latin'] })
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 export default function event() {
   const routes = [
     {
       name: 'Treasure Hunt',
-      img: 'thunt.jpeg',
+      key: '1',
+      img: '/thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Robo War',
-      img: 'roborace.jpeg',
+      key: '2',
+      img: '/roborace.jpeg',
       url: '/events',
     },
     {
       name: 'E-Sport',
-      img: 'https://designshack.net/wp-content/uploads/PUBG-Gaming-Esports-Logo-Template-1024x682.jpg',
+      key: '3',
+      // img: 'https://designshack.net/wp-content/uploads/PUBG-Gaming-Esports-Logo-Template-1024x682.jpg',
+      img: '/cube.webp',
       url: '/events',
     },
     {
       name: "Rubik's Cube",
-      img: 'cube.webp',
+      key: '4',
+      img: '/cube.webp',
       url: '/events',
     },
     {
       name: 'Code Competition',
-      img: 'https://th.bing.com/th/id/OIP.wNXdwGG1Ja-os2aO6_ZzqgHaFo?pid=ImgDet&rs=1',
+      key: '5',
+      // img: 'https://th.bing.com/th/id/OIP.wNXdwGG1Ja-os2aO6_ZzqgHaFo?pid=ImgDet&rs=1',
+      img: '/cube.webp',
       url: '/events',
     },
     {
       name: 'Picture Patch',
-      img: 'pic.jpeg',
+      key: '6',
+      img: '/pic.jpeg',
       url: '/events',
     },
     {
       name: 'Viaduct',
-      img: 'vi.webp',
+      key: '7',
+      img: '/vi.webp',
       url: '/events',
     },
     {
       name: 'Dare 2 Win',
-      img: 'images.jpeg',
+      key: '8',
+      img: '/images.jpeg',
       url: '/events',
     },
   ]
@@ -53,32 +64,38 @@ export default function event() {
   const routes1 = [
     {
       name: 'Mono Acting',
-      img: 'mono.jpeg',
+      key: '11',
+      img: '/mono.jpeg',
       url: '/events',
     },
     {
       name: 'Skit',
-      img: 'd.jpeg',
+      key: '12',
+      img: '/d.jpeg',
       url: '/events',
     },
     {
       name: 'Poetry',
-      img: 'poetry.jpeg',
+      key: '13',
+      img: '/poetry.jpeg',
       url: '/events',
     },
     {
       name: 'Debate',
-      img: 'deb.png',
+      key: '14',
+      img: '/deb.png',
       url: '/events',
     },
     {
       name: 'OpenMic',
-      img: 'open.jpeg',
+      key: '15',
+      img: '/open.jpeg',
       url: '/events',
     },
     {
       name: 'InQuizition',
-      img: 'quizz-min.jpg',
+      key: '16',
+      img: '/quizz-min.jpg',
       url: '/events',
     },
   ]
@@ -86,42 +103,50 @@ export default function event() {
   const routes2 = [
     {
       name: 'Rangoli Making',
-      img: 'rangoli.jpeg',
+      key: '17',
+      img: '/rangoli.jpeg',
       url: '/events',
     },
     {
       name: 'Poster Making',
-      img: 'pos.jpeg',
+      key: '18',
+      img: '/pos.jpeg',
       url: '/events',
     },
     {
       name: 'Poetry',
-      img: 'poetry.jpeg',
+      key: '19',
+      img: '/poetry.jpeg',
       url: '/events',
     },
     {
       name: 'Face Painting',
-      img: 'face.jpeg',
+      key: '21',
+      img: '/face.jpeg',
       url: '/events',
     },
     {
       name: 'Sketching',
-      img: 'sk.jpeg',
+      key: '31',
+      img: '/sk.jpeg',
       url: '/events',
     },
     {
       name: 'Cartooning',
-      img: 'cartoon.jpeg',
+      key: '41',
+      img: '/cartoon.jpeg',
       url: '/events',
     },
     {
       name: 'Art Gallery',
-      img: 'art.webp',
+      key: '51',
+      img: '/art.webp',
       url: '/events',
     },
     {
       name: 'Project Expo',
-      img: 'expo.jpeg',
+      key: '61',
+      img: '/expo.jpeg',
       url: '/events',
     },
   ]
@@ -129,32 +154,38 @@ export default function event() {
   const routes3 = [
     {
       name: 'Slow Cyclingy',
-      img: 'slow.jpeg',
+      key: '71',
+      img: '/slow.jpeg',
       url: '/events',
     },
     {
       name: 'Leg Cricket',
-      img: 'leg.jpeg',
+      key: '81',
+      img: '/leg.jpeg',
       url: '/events',
     },
     {
       name: 'Gram',
-      img: 'gram.webp',
+      key: '91',
+      img: '/gram.webp',
       url: '/events',
     },
     {
       name: 'Ballon Shooting',
-      img: 'ballon.jpg',
+      key: '34',
+      img: '/ballon.jpg',
       url: '/events',
     },
     {
       name: 'Basket Ball',
-      img: 'bask.jpeg',
+      key: '35',
+      img: '/bask.jpeg',
       url: '/events',
     },
     {
       name: 'FoootBall',
-      img: 'foot.jpeg',
+      key: '36',
+      img: '/foot.jpeg',
       url: '/events',
     },
   ]
@@ -162,17 +193,20 @@ export default function event() {
   const routes4 = [
     {
       name: 'Dance',
-      img: 'dan.jpeg',
+      key: '37',
+      img: '/dan.jpeg',
       url: '/events',
     },
     {
       name: 'Singing',
-      img: 'sing.webp',
+      key: '38',
+      img: '/sing.webp',
       url: '/events',
     },
     {
       name: 'Fashion Show',
-      img: 'fas.jpeg',
+      key: '39',
+      img: '/fas.jpeg',
       url: '/events',
     },
   ]
@@ -217,10 +251,12 @@ export default function event() {
             </div>
           </div>
 
-          <img
+          <Image
             className="w-full esm:h-80 h-full"
             src="event.png"
             alt="img"
+            width={100}
+            height={100}
           />
         </div>
 
@@ -233,6 +269,7 @@ export default function event() {
               {routes.map((route) => {
                 return (
                   <Event
+                    key={route.key}
                     i1={route.img}
                     i2={route.name}
                   />
@@ -251,6 +288,7 @@ export default function event() {
               {routes1.map((route) => {
                 return (
                   <Event
+                    key={route.key}
                     i1={route.img}
                     i2={route.name}
                   />
@@ -269,6 +307,7 @@ export default function event() {
               {routes2.map((route) => {
                 return (
                   <Event
+                    key={route.key}
                     i1={route.img}
                     i2={route.name}
                   />
@@ -287,6 +326,7 @@ export default function event() {
               {routes3.map((route) => {
                 return (
                   <Event
+                    key={route.key}
                     i1={route.img}
                     i2={route.name}
                   />
@@ -305,6 +345,7 @@ export default function event() {
               {routes4.map((route) => {
                 return (
                   <Event
+                    key={route.key}
                     i1={route.img}
                     i2={route.name}
                   />

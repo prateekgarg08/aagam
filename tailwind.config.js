@@ -12,13 +12,14 @@ module.exports = {
   theme: {
     extend: {
       boxShadow:{
-        sxl : '10 10px 10px 10px rgba(0, 0, 0, 0.3)'
+        sxl : '5px 20px 25px 0px rgb(0 0 0 / 0.1), 6px 8px 10px 0px rgb(0 0 0 / 0.1);'
       },
       backgroundImage: {
         br: "url('./regbg.png')",
       },
       height: {
         extra: '32rem',
+        fit:'20rem'
       },
       fontSize: {
         no: '0rem',

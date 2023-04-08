@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import Image from 'next/image'
 import { FaInstagram } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
@@ -10,10 +11,12 @@ export const Footer: FC<{}> = ({}) => {
     <div className="flex w-fullh-auto bg-black p-4">
       <div className="flex w-1/4 h-full bg-black flex-col ">
         <div className="w-6/8 h-14 sm:h-full flex align-center justify-center">
-          <img
-            src="logo.png"
+          <Image
+            src="/logo.png"
             alt="img"
-          ></img>
+            width={100}
+            height={100}
+          />
         </div>
         <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-4 align-center justify-center p-2">
           <FaInstagram

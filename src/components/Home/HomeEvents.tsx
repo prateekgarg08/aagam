@@ -4,31 +4,31 @@ import { Event } from '../Events/Event'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-export const Homeevent: FC<{}> = ({}) => {
+export const HomeEvents: FC<{}> = ({}) => {
   const routes = [
     {
       name: 'Technical',
-      img: 'thunt.jpeg',
+      img: '/thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Cultural',
-      img: 'thunt.jpeg',
+      img: '/thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Art & Craft',
-      img: 'thunt.jpeg',
+      img: '/thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Novelty',
-      img: 'thunt.jpeg',
+      img: '/thunt.jpeg',
       url: '/events',
     },
     {
       name: 'Compitition',
-      img: 'thunt.jpeg',
+      img: '/thunt.jpeg',
       url: '/events',
     },
   ]
@@ -40,39 +40,16 @@ export const Homeevent: FC<{}> = ({}) => {
       <div className="text-center text-3xl text-white font-bold mt-4 ">
         Events
       </div>
-      <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
+      <div className="flex flex-col items-center w-full h-1/2 xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
         {routes.map((route) => {
           return (
             <Event
+              key={route.name}
               i1={route.img}
               i2={route.name}
             />
           )
         })}
-        {/* <Event
-
-          i1="tresure.png"
-          i2="Techical"
-        />
-        <Event
-          i1="tresure.png"
-          i2="cultural"
-        />
-
-        <Event
-          i1="tresure.png"
-          i2="Art & Craft"
-        />
-
-        <Event
-          i1="tresure.png"
-          i2="Competition"
-        />
-
-        <Event
-          i1="tresure.png"
-          i2="Novelty Games"
-        /> */}
       </div>
     </div>
   )

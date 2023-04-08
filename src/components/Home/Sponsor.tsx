@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import { FC } from 'react'
 
@@ -9,22 +10,28 @@ export const Sponsor: FC<{}> = ({}) => {
       </div>
       <div className="flex w-full h-full sm:flex-col  sm:justify-center sm:align-center  xl:flex-row mt-14 ">
         <div className="w-1/3 h-1/3 p-20 sm:flex sm:justify-center sm:align-center sm:w-auto">
-          <img
-            src="image_1.png"
+          <Image
+            src="/image_1.png"
             alt="img"
-          ></img>
+            width={150}
+            height={150}
+          />
         </div>
         <div className="w-1/3 h-1/3 p-20 sm:flex sm:justify-center sm:align-center sm:w-auto ">
-          <img
-            src="image_2.png"
+          <Image
+            src="/image_2.png"
             alt="img"
-          ></img>
+            width={150}
+            height={150}
+          />
         </div>
         <div className="w-1/3 h-1/3 p-20 sm:flex sm:justify-center sm:align-center sm:w-auto">
-          <img
-            src="image_3.svg"
+          <Image
+            src="/image_3.svg"
             alt="img"
-          ></img>
+            width={150}
+            height={150}
+          />
         </div>
       </div>
     </div>

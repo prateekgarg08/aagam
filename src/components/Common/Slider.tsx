@@ -9,6 +9,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import 'swiper/css/autoplay'
+import Image from 'next/image'
 
 export const Slider: FC<{
   slides: any[]
@@ -26,8 +27,9 @@ export const Slider: FC<{
       onSwiper={(swiper) => console.log(swiper)}
     >
       {slides.map((slide) => (
-        <SwiperSlide>
-          <img
+        <SwiperSlide key={slide}>
+          <Image
+            key={slide}
             src={slide}
             alt=""
           />
