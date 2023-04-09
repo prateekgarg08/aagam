@@ -18,26 +18,26 @@ export const Footer: FC<{}> = ({}) => {
             height={100}
           />
         </div>
-        <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-4 align-center justify-center p-2">
+        <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-4 esm:gap-1 xl:gap-1 align-center justify-center p-2 esm:p-1">
           <FaInstagram
-            className="esm:text-xl"
+            className="esm:text-sm"
             color="white"
-            fontSize={'28px'}
+            fontSize={'18px'}
           />
           <FaTwitter
             color="white"
-            className="esm:text-xl"
-            fontSize={'28px'}
+            className="esm:text-sm"
+            fontSize={'18px'}
           />
           <FaLinkedin
             color="white"
-            className="esm:text-xl"
-            fontSize={'28px'}
+            className="esm:text-sm"
+            fontSize={'18px'}
           />
           <FaYoutube
             color="white"
-            className="esm:text-xl"
-            fontSize={'28px'}
+            className="esm:text-sm"
+            fontSize={'18px'}
           />
         </div>
       </div>
