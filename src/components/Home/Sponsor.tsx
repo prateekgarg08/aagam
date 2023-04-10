@@ -29,7 +29,7 @@ export const Sponsor: FC<{}> = ({}) => {
           <Image
             src="/image_3.svg"
             alt="img"
-            width={250}
+            width={150}
             height={150}
           />
         </div>

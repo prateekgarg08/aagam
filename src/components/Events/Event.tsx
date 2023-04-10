@@ -14,8 +14,8 @@ export const Event = (props: Im) => {
             src={props.i1}
             alt=""
             width={180}
-            height={180}
-            className="h-4/5 w-full  rounded-t-3xl  "
+            height="0"
+            className="h-4/5 w-full object-fill  rounded-t-3xl  "
           />
         </div>
         <div className="w-full h-1 ">

@@ -25,7 +25,7 @@ export default function event() {
       name: 'E-Sport',
       key: '3',
       // img: 'https://designshack.net/wp-content/uploads/PUBG-Gaming-Esports-Logo-Template-1024x682.jpg',
-      img: '/cube.webp',
+      img: '/es.jpg',
       url: '/events',
     },
     {
@@ -37,8 +37,7 @@ export default function event() {
     {
       name: 'Code Competition',
       key: '5',
-      // img: 'https://th.bing.com/th/id/OIP.wNXdwGG1Ja-os2aO6_ZzqgHaFo?pid=ImgDet&rs=1',
-      img: '/cube.webp',
+      img: '/cod.jpeg',
       url: '/events',
     },
     {
@@ -253,9 +252,9 @@ export default function event() {
 
           <Image
             className="w-full esm:h-80 h-full"
-            src="event.png"
+            src="/event.png"
             alt="img"
-            width={100}
+            width={300}
             height={100}
           />
         </div>
