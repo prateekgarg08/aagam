@@ -15,7 +15,8 @@ export const Event = (props: Im) => {
             alt=""
             width={180}
             height="0"
-            className="h-4/5 w-full object-fill  rounded-t-3xl  "
+            style={{ height: '100%', width: '100%' }}
+            className="rounded-t-3xl  "
           />
         </div>
         <div className="w-full h-1 ">
@@ -26,7 +27,7 @@ export const Event = (props: Im) => {
               </div>
             </div>
           </div>
-          <div className=" flex mb-4  items-center justify-center ">
+          <div className=" flex mb-4 items-center justify-center ">
             <div className="w-full h-full flex items-center justify-center">
               <div className="w-3/4 pb-2 rounded-lg bg-tertiary esm:text-xl font-bold esm:pb-0  h-full text-center text-3xl border-2 border-black ">
                 <Link href="/register"> Register </Link>
