@@ -57,21 +57,6 @@ export const Navbar: FC = () => {
           <FaRegUserCircle className="h-6 w-6" />
           <span className="">Login</span>
         </button>
-        <div
-          className="lg:hidden text-3xl"
-          onClick={() => setIsMobileNavActive(true)}
-        >
-          <AiOutlineMenu color="white" />
-        </div>
-        <div
-          className={`${
-            isMobileNavActive ? 'flex' : 'hidden'
-          } absolute w-full h-full top-0 text-orange left-0 z-10 flex-col msm:bg-black space-y-5 text-xl  py-2 lg:text-base lg:static items-center  lg:flex lg:flex-row lg:space-x-4 lg:space-y-0`}
-        >
-          <div className="lg:hidden text-2xl bg-black  text-white font-bold  w-full flex flex-row-reverse">
-            <AiOutlineClose onClick={() => setIsMobileNavActive(false)} />
-          </div>
-        </div>
       </div>
     </div>
   )
