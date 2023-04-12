@@ -34,9 +34,10 @@ export default function Home() {
       <div className="relative min-h-screen bg-black">
         <Navbar />
         <Hero />
-        <Glimpses />
-        <HomeEvents />
         <About />
+
+        <HomeEvents />
+        <Glimpses />
         <Sponsor />
         <Footer />
       </div>

@@ -35,7 +35,7 @@ export const Navbar: FC = () => {
           height={100}
         />
       </div>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center mr-4">
         {routes.map((route) => {
           return (
             <Link
@@ -48,7 +48,7 @@ export const Navbar: FC = () => {
             </Link>
           )
         })}
-        <button
+        {/* <button
           onClick={() => {
             router.push('/login')
           }}
@@ -56,7 +56,7 @@ export const Navbar: FC = () => {
         >
           <FaRegUserCircle className="h-6 w-6" />
           <span className="">Login</span>
-        </button>
+        </button> */}
       </div>
     </div>
   )

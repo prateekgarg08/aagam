@@ -8,17 +8,17 @@ import Link, { LinkProps } from 'next/link'
 
 export const Footer: FC<{}> = ({}) => {
   return (
-    <div className="flex w-fullh-auto bg-black p-4">
-      <div className="flex w-1/4 h-full bg-black flex-col ">
-        <div className="w-6/8 h-14 sm:h-full flex align-center justify-center">
+    <div className="flex w-full h-60 bg-black p-4 flex-col">
+      <div className="flex w-full h-full bg-black flex-col">
+        <div className="w-full  sm:h-full flex align-center justify-center">
           <Image
             src="/logo.png"
             alt="img"
-            width={100}
+            width={200}
             height={100}
           />
         </div>
-        <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-4 esm:gap-1 xl:gap-1 align-center justify-center p-2 esm:p-1">
+        <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-8 align-center justify-center p-2 esm:p-1">
           <FaInstagram
             className="esm:text-sm"
             color="white"
@@ -42,12 +42,49 @@ export const Footer: FC<{}> = ({}) => {
         </div>
       </div>
 
-      <div className="flex w-1/4 h-full flex-col">
-        <div className="w-full h-auto flex-col align-center justify-center">
+      <div className="flex w-full h-full  flex-col">
+        <div className="flex esm:flex esm:flex-wrap esm:h-2 esm:w-full esm:items-center esm:justify-center h-2 pr-2 gap-4 esm:gap-1 xl:gap-1 align-center justify-center p-2 esm:p-1">
+          <div className="p-4 sm:p-2 lg:p-4">
+            <Link
+              href="/events"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
+            >
+              Events
+            </Link>
+          </div>
+          <div className="p-4 sm:p-2 ">
+            <Link
+              href="/events"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
+            >
+              Home
+            </Link>
+          </div>
+          <div className="p-4 sm:p-2 lg:p-4">
+            <Link
+              href="/about"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
+            >
+              About Us
+            </Link>
+          </div>
+          <div className="p-4 sm:p-2 esm:p-2 ">
+            <Link
+              href="/events"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
+            >
+              Contact us
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="flex w-full h-full items-center justify-center ">
+        <div className="w-full h-auto  items-center justify-center">
           <div className="p-4 sm:p-2">
             <Link
               href="/events"
-              className="text-gray-400 hover:text-gray-50 duration-100 "
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
             >
               EVENTS
             </Link>
@@ -55,7 +92,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <Link
               href="/events"
-              className="text-gray-400 hover:text-gray-50 duration-100 "
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
             >
               Treasure Hunt
             </Link>
@@ -63,20 +100,20 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <Link
               href="/events"
-              className="text-gray-400 hover:text-gray-50 duration-100"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100"
             >
               Dare 2 Win
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex w-1/4 h-full flex-col">
+      {/*</div> <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
           <div className="p-4 sm:p-2">
             <a
               href="#"
-              className="text-gray-400 hover:text-gray-50 duration-100"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100"
             >
               About Us
             </a>
@@ -84,7 +121,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-gray-400 hover:text-gray-50 duration-100"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100"
             >
               Teams
             </a>
@@ -92,7 +129,7 @@ export const Footer: FC<{}> = ({}) => {
           <div className="p-2 sm:p-0">
             <a
               href="#"
-              className="text-gray-400 hover:text-gray-50 duration-100"
+              className="text-gray-400 text-sm hover:text-gray-50 duration-100"
             >
               Contact us
             </a>
@@ -102,17 +139,17 @@ export const Footer: FC<{}> = ({}) => {
 
       <div className="flex w-1/4 h-full flex-col">
         <div className="w-full h-auto flex-col align-center justify-center">
-          <div className="p-2 sm:p-0 text-gray-400 hover:text-gray-50 duration-100">
+          <div className="p-4 sm:p-0 text-sm text-gray-400 hover:text-gray-50 duration-100">
             Legal
           </div>
-          <div className="p-2 sm:p-0 text-gray-400 hover:text-gray-50 duration-100">
+          <div className="p-2 sm:p-0 text-sm text-gray-400 hover:text-gray-50 duration-100">
             Privacy
           </div>
-          <div className="p-2 sm:p-0 text-gray-400 hover:text-gray-50 duration-100">
+          <div className="p-2 sm:p-0 text-sm text-gray-400 hover:text-gray-50 duration-100">
             Terms
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   )
 }

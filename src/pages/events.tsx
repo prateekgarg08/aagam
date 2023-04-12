@@ -238,7 +238,7 @@ export default function event() {
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
               <div className="text-white text-5xl  "> Events</div>
             </div>
-            <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 esm:pb-28 esm:p-0 ">
+            {/* <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 esm:pb-28 esm:p-0 ">
               <div className="text-white text-3xl lg:text-2xl sm:text-sm">
                 Arts & Cratf
               </div>
@@ -247,7 +247,7 @@ export default function event() {
               <div className="text-white text-2xl sm:text-sm">Technical</div>
 
               <div className="text-white text-2xl sm:text-sm">Cultural</div>
-            </div>
+  </div>*/}
           </div>
 
           <Image

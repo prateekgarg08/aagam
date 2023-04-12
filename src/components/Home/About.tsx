@@ -17,7 +17,7 @@ export const About: FC<{}> = ({}) => {
             alt="about"
           />
         </div>
-        <div className="w-1/2 lg:w-1/3 lg:flex gap-3 sm:w-full  lg:text-xl esm:text-sm sm:text-md text-gray-400 sm:py-12 xl:py-2">
+        <div className="w-1/2 lg:w-1/3 lg:flex gap-3 sm:w-full flex justify-center items-center  lg:text-xl esm:text-sm sm:text-md text-gray-400 sm:py-12 xl:py-2">
           Aagam, the cultural and technical festival of COLLEGE OF TECHNOLOGY
           AND ENGINEERING, UDAIPUR. It is a glorious rendition of the ideals of
           innovation, conception and determination to achieve heights of

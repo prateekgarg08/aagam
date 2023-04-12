@@ -19,7 +19,8 @@ module.exports = {
       },
       height: {
         extra: '32rem',
-        fit:'20rem'
+        fit:'20rem',
+        large:'30rem'
       },
       fontSize: {
         no: '0rem',
