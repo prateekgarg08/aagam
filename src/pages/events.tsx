@@ -189,26 +189,26 @@ export default function event() {
     },
   ]
 
-  const routes4 = [
-    {
-      name: 'Dance',
-      key: '37',
-      img: '/dan.jpeg',
-      url: '/events',
-    },
-    {
-      name: 'Singing',
-      key: '38',
-      img: '/sing.webp',
-      url: '/events',
-    },
-    {
-      name: 'Fashion Show',
-      key: '39',
-      img: '/fas.jpeg',
-      url: '/events',
-    },
-  ]
+  // const routes4 = [
+  //   {
+  //     name: 'Dance',
+  //     key: '37',
+  //     img: '/dan.jpeg',
+  //     url: '/events',
+  //   },
+  //   {
+  //     name: 'Singing',
+  //     key: '38',
+  //     img: '/sing.webp',
+  //     url: '/events',
+  //   },
+  //   {
+  //     name: 'Fashion Show',
+  //     key: '39',
+  //     img: '/fas.jpeg',
+  //     url: '/events',
+  //   },
+  // ]
 
   return (
     <>
@@ -335,24 +335,16 @@ export default function event() {
           </div>
         </div>
 
-        <div className=" h-full w-full bg-black p-4 ">
+        {/* <div className=" h-full w-full bg-black p-4 ">
           <div className="text-center text-3xl text-white font-bold mt-4 ">
             College Compettions
             <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
-              {/* {routes.map((route) => { */}
+            
 
-              {routes4.map((route) => {
-                return (
-                  <Event
-                    key={route.key}
-                    i1={route.img}
-                    i2={route.name}
-                  />
-                )
-              })}
+             
             </div>
           </div>
-        </div>
+        </div>  */}
       </div>
     </>
   )

@@ -32,7 +32,7 @@ export const Navbar: FC = () => {
     setIsMobileNavActive(!isMobileNavActive)
   }
   return (
-    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible py-3">
+    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible ">
       <div className="logo bg-bgBlack">
         <Image
           src="/logo.png"
@@ -81,7 +81,10 @@ export const Navbar: FC = () => {
                     key={route.name}
                     href={route.url}
                   >
-                    <span className=" text-gray-400 hover:text-gray-50 duration-100 ">
+                    <span
+                      className=" text-gray-400 hover:text-gray-50 duration-100 "
+                      onClick={clickHandler}
+                    >
                       {route.name}
                     </span>
                   </Link>
