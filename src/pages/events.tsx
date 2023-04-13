@@ -189,7 +189,7 @@ export default function event() {
                 </div>
                 <button
                   onClick={() => {
-                    router.push('/register')
+                    router.push('/events')
                   }}
                   className="flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
                 >
