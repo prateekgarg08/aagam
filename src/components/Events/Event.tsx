@@ -24,7 +24,7 @@ export const Event = (props: Im) => {
           <div className=" flex  items-center justify-center b  ">
             <div className="w-full h-full flex items-center justify-center">
               <div className="w-full pb-2 esm:pb-0 h-full text-black font-bold text-center md:text-3xl esm:text-xl sm:text-xl text-bold  ">
-                <Link href="/events"> {props.i2}</Link>
+                {props.i2}
               </div>
             </div>
           </div>
