@@ -16,11 +16,12 @@ export default function event() {
       url: '/events',
     },
     {
-      name: 'Robo War',
-      key: '2',
-      img: '/roborace.jpeg',
-      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
+      name: 'Dare 2 Win',
+      key: '8',
+      img: '/images.jpeg',
+      url: 'https://unstop.com/o/jcPLfAv?lb=CMPi0J9',
     },
+
     {
       name: 'E-Sport',
       key: '3',
@@ -29,11 +30,12 @@ export default function event() {
       url: 'https://unstop.com/o/jydmBQl?lb=CMPi0J9',
     },
     {
-      name: "Rubik's Cube",
-      key: '4',
-      img: '/cube.webp',
-      url: '/events',
+      name: 'Robo War',
+      key: '2',
+      img: '/roborace.jpeg',
+      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
     },
+
     {
       name: 'Code Competition',
       key: '5',
@@ -46,12 +48,11 @@ export default function event() {
       img: '/pic.jpeg',
       url: '/events',
     },
-
     {
-      name: 'Dare 2 Win',
-      key: '8',
-      img: '/images.jpeg',
-      url: 'https://unstop.com/o/jcPLfAv?lb=CMPi0J9',
+      name: "Rubik's Cube",
+      key: '4',
+      img: '/cube.webp',
+      url: '/events',
     },
   ]
 
@@ -68,12 +69,7 @@ export default function event() {
       img: '/deb.png',
       url: '/events',
     },
-    {
-      name: 'OpenMic',
-      key: '15',
-      img: '/open.jpeg',
-      url: '/events',
-    },
+
     {
       name: 'Quiz',
       key: '16',
@@ -239,7 +235,7 @@ export default function event() {
           </div>
 
           <Image
-            className="w-full esm:h-80 h-full tran"
+            className="w-full esm:h-80 h-full opecity-0.2"
             src="/tro.jpg"
             alt="img"
             width={300}
@@ -269,7 +265,7 @@ export default function event() {
 
         <div className=" h-full w-full bg-black p-4 ">
           <div className="text-center text-3xl text-white font-bold mt-4 ">
-            cultural
+            Cultural
             <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
               {/* {routes.map((route) => { */}
 
