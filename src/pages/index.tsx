@@ -29,13 +29,10 @@ export default function Home() {
           href="/favicon.ico"
         />
       </Head>
-      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>
-       */}
-      <div className="relative min-h-screen bg-black">
+      <div className="relative flex flex-col gap-24  min-h-screen bg-black">
         <Navbar />
         <Hero />
         <About />
-
         <HomeEvents />
         <Glimpses />
         {/* <Sponsor /> */}
