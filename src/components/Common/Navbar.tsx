@@ -32,7 +32,7 @@ export const Navbar: FC = () => {
     setIsMobileNavActive(!isMobileNavActive)
   }
   return (
-    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible ">
+    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange overflow-visible ">
       <div className="logo bg-bgBlack">
         <Image
           src="/logo.png"
@@ -70,7 +70,7 @@ export const Navbar: FC = () => {
       {isMobileNavActive ? (
         <div className="bg-black h-full w-screen">
           <AiOutlineClose
-            className=" text-2xl  text-white"
+            className=" text-2xl  text-white "
             onClick={clickHandler}
           />
           <div className="w-screen h-screen flex items-center justify-center">
@@ -103,7 +103,7 @@ export const Navbar: FC = () => {
         </div>
       ) : (
         <AiOutlineMenu
-          className="block smm:hidden text-2xl  text-white"
+          className="block smm:hidden text-2xl mr-4  text-white"
           onClick={clickHandler}
         />
       )}

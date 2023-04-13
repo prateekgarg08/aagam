@@ -19,14 +19,14 @@ export default function event() {
       name: 'Robo War',
       key: '2',
       img: '/roborace.jpeg',
-      url: '/events',
+      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
     },
     {
       name: 'E-Sport',
       key: '3',
       // img: 'https://designshack.net/wp-content/uploads/PUBG-Gaming-Esports-Logo-Template-1024x682.jpg',
       img: '/es.jpg',
-      url: '/events',
+      url: 'https://unstop.com/o/jydmBQl?lb=CMPi0J9',
     },
     {
       name: "Rubik's Cube",
@@ -38,7 +38,7 @@ export default function event() {
       name: 'Code Competition',
       key: '5',
       img: '/cod.jpeg',
-      url: '/events',
+      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
     },
     {
       name: 'Picture Patch',
@@ -56,7 +56,7 @@ export default function event() {
       name: 'Dare 2 Win',
       key: '8',
       img: '/images.jpeg',
-      url: '/events',
+      url: 'https://unstop.com/o/jcPLfAv?lb=CMPi0J9',
     },
   ]
 
@@ -236,7 +236,7 @@ export default function event() {
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
             <div className="flex items-center justify-center w-full h-3/6 pt-14">
-              <div className="text-white text-5xl  "> Events</div>
+              <div className="text-white text-8xl  "> Events</div>
             </div>
             {/* <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 esm:pb-28 esm:p-0 ">
               <div className="text-white text-3xl lg:text-2xl sm:text-sm">
@@ -271,6 +271,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -290,6 +291,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -309,6 +311,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -328,6 +331,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
