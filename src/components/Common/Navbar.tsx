@@ -24,7 +24,7 @@ export const Navbar: FC = () => {
       url: '/events',
     },
     {
-      name: 'contact us',
+      name: 'Contact us',
       url: '/events',
     },
   ]

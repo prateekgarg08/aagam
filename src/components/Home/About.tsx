@@ -9,15 +9,15 @@ export const About: FC<{}> = ({}) => {
   return (
     <div className="flex flex-col gap-16 bg-black mt-4">
       <h1 className="text-white text-5xl font-bold text-center">About</h1>
-      <div className="grid grid-cols-5 items-center gap-10 px-12">
-        <div className="col-span-2">
+      <div className="flex msm:flex-col w-full grid-cols-5 items-center gap-10 px-12">
+        <div className="col-span-2 w-1/2 msm:w-full">
           <Image
             className="rounded-xl"
             src={AboutImage}
             alt="about"
           />
         </div>
-        <span className="col-span-3 text-lg text-gray-300">
+        <span className="col-span-3 w-1/2 text-lg text-gray-300 msm:w-full">
           Aagam, the cultural and technical festival of COLLEGE OF TECHNOLOGY
           AND ENGINEERING, UDAIPUR. It is a glorious rendition of the ideals of
           innovation, conception and determination to achieve heights of
