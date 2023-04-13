@@ -154,26 +154,6 @@ export default function event() {
     },
   ]
 
-  // const routes4 = [
-  //   {
-  //     name: 'Dance',
-  //     key: '37',
-  //     img: '/dan.jpeg',
-  //     url: '/events',
-  //   },
-  //   {
-  //     name: 'Singing',
-  //     key: '38',
-  //     img: '/sing.webp',
-  //     url: '/events',
-  //   },
-  //   {
-  //     name: 'Fashion Show',
-  //     key: '39',
-  //     img: '/fas.jpeg',
-  //     url: '/events',
-  //   },
-  // ]
   const router = useRouter()
 
   return (
@@ -230,7 +210,7 @@ export default function event() {
           </div>
 
           <Image
-            className="w-full esm:h-80 h-full opecity-0.1"
+            className="w-full esm:h-80 h-full opacity-10"
             src="/tro.jpg"
             alt="img"
             width={300}
