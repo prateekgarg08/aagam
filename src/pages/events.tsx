@@ -3,8 +3,9 @@ import { Inter } from 'next/font/google'
 import { Navbar } from '@/components/Common/Navbar'
 
 import { Event } from '@/components/Events/Event'
+import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
-import { useRouter } from 'next/router'
+
 import Image from 'next/image'
 
 export default function event() {
@@ -154,8 +155,6 @@ export default function event() {
     },
   ]
 
-  const router = useRouter()
-
   return (
     <>
       <Head>
@@ -187,14 +186,12 @@ export default function event() {
                   {' '}
                   Events
                 </div>
-                <button
-                  onClick={() => {
-                    router.push('/events')
-                  }}
-                  className="flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
-                >
-                  Download Rule Book
-                </button>
+                <Link href="/events">
+                  {' '}
+                  <button className="flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all">
+                    Download Rule Book
+                  </button>
+                </Link>
               </div>
             </div>
             {/* <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 esm:pb-28 esm:p-0 ">
