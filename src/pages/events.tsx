@@ -125,7 +125,7 @@ export default function event() {
     {
       name: 'Relay Sack Race',
       key: '81',
-      img: '/leg.jpeg',
+      img: '/rera.jpeg',
       url: '/register',
     },
 
@@ -144,7 +144,7 @@ export default function event() {
     {
       name: 'Jalebi Race',
       key: '7',
-      img: '/bask.jpeg',
+      img: '/ja.jpg',
       url: '/register',
     },
     {
