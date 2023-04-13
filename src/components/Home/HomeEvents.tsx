@@ -22,26 +22,11 @@ export const HomeEvents: FC<{}> = ({}) => {
       img: '/a&c.jpg',
       url: '/events',
     },
-    // {
-    //   name: 'Novelty',
-    //   img: '/thunt.jpeg',
-    //   url: '/events',
-    // },
-    // {
-    //   name: 'Compitition',
-    //   img: '/thunt.jpeg',
-    //   url: '/events',
-    // },
   ]
   return (
-    <div
-      className=" h-full w-full
-      p-4 "
-    >
-      <div className="text-center text-3xl text-white font-bold mt-4 ">
-        Events
-      </div>
-      <div className="flex flex-col items-center w-full h-1/2 xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
+    <div className="w-full p-4 flex flex-col items-center gap-8">
+      <h1 className="text-white text-5xl font-bold text-center">Events</h1>
+      <div className="flex flex-wrap gap-8 items-center justify-around w-full">
         {routes.map((route) => {
           return (
             <HomeEvent

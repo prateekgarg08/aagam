@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 export const Hero: FC<{}> = ({}) => {
   const router = useRouter()
   return (
-    <div className="flex bg-black flex-col w-full my-20 py-5 justify-center items-center space-y-10">
+    <div className="flex bg-black flex-col w-full py-5 justify-center items-center gap-10">
       <Image
         src="/AAGAMLOGO.png"
         width={530}

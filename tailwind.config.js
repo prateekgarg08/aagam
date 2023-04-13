@@ -11,16 +11,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      boxShadow:{
-        sxl : '5px 20px 25px 0px rgb(0 0 0 / 0.1), 6px 8px 10px 0px rgb(0 0 0 / 0.1);'
+      boxShadow: {
+        sxl: '5px 20px 25px 0px rgb(0 0 0 / 0.1), 6px 8px 10px 0px rgb(0 0 0 / 0.1);',
       },
       backgroundImage: {
         br: "url('./regbg.png')",
       },
       height: {
         extra: '32rem',
-        fit:'20rem',
-        large:'30rem'
+        fit: '20rem',
+        large: '30rem',
       },
       fontSize: {
         no: '0rem',
@@ -34,7 +34,7 @@ module.exports = {
         esm: { max: '540px' },
       },
       colors: {
-        back:'#C7D3DC',
+        back: '#C7D3DC',
         primary: '#EF542D',
         secondary: '#F1781F',
         tertiary: '#DB3232',

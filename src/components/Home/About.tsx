@@ -7,17 +7,17 @@ import AboutImage from '../../../public/image.png'
 
 export const About: FC<{}> = ({}) => {
   return (
-    <div className="w-full h-full bg-black mt-4">
-      <h1 className="text-white text-3xl font-bold text-center">About</h1>
-      <div className=" p-12 flex items-center gap-4 sm:flex-col xl:flex-row">
-        <div className="w-1/2 sm:w-full sm:h-30 xl:h-96  sm: flex sm:justify-center sm:align-center p-2 ">
+    <div className="flex flex-col gap-16 bg-black mt-4">
+      <h1 className="text-white text-5xl font-bold text-center">About</h1>
+      <div className="grid grid-cols-5 items-center gap-10 px-12">
+        <div className="col-span-2">
           <Image
             className="rounded-xl"
             src={AboutImage}
             alt="about"
           />
         </div>
-        <div className="w-1/2 lg:w-1/3 lg:flex gap-3 sm:w-full flex justify-center items-center  lg:text-xl esm:text-sm sm:text-md text-gray-400 sm:py-12 xl:py-2">
+        <span className="col-span-3 text-lg text-gray-300">
           Aagam, the cultural and technical festival of COLLEGE OF TECHNOLOGY
           AND ENGINEERING, UDAIPUR. It is a glorious rendition of the ideals of
           innovation, conception and determination to achieve heights of
@@ -28,7 +28,7 @@ export const About: FC<{}> = ({}) => {
           platform to drive talent and excellence. We look forward to having an
           enriching experience with all the participants. And yes, we promise
           the elegance, euphoria and entertainment !!
-        </div>
+        </span>
       </div>
     </div>
   )
