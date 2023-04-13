@@ -32,7 +32,7 @@ export const Slider: FC<{
             key={slide}
             src={slide}
             alt=""
-            width="500"
+            width="1000"
             height="0"
             className="w-full h-full"
             // style={{ width: '100%', height: 'auto' }}

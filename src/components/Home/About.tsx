@@ -12,7 +12,9 @@ export const About: FC<{}> = ({}) => {
       <div className="flex msm:flex-col w-full grid-cols-5 items-center gap-10 px-12">
         <div className="col-span-2 w-1/2 msm:w-full">
           <Image
-            className="rounded-xl"
+            width="1000"
+            height="0"
+            className="rounded-xl w-full "
             src={AboutImage}
             alt="about"
           />

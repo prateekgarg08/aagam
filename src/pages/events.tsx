@@ -48,7 +48,7 @@ export default function event() {
       name: "Rubik's Cube",
       key: '4',
       img: '/cube.webp',
-      url: '/events',
+      url: '/register',
     },
   ]
 
@@ -57,20 +57,20 @@ export default function event() {
       name: 'Poetry',
       key: '13',
       img: '/poetry.jpeg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
     {
       name: 'Debate',
       key: '14',
       img: '/deb.png',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
 
     {
       name: 'Quiz',
       key: '16',
       img: '/quizz-min.jpg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
   ]
 
@@ -79,39 +79,39 @@ export default function event() {
       name: 'Rangoli Making',
       key: '17',
       img: '/rangoli.jpeg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
     {
       name: 'Poster Making',
       key: '18',
       img: '/pos.jpeg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
 
     {
       name: 'Face Painting',
       key: '21',
       img: '/face.jpeg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
     {
       name: 'Sketching',
       key: '31',
       img: '/sk.jpeg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
 
     {
       name: 'Art Gallery',
       key: '51',
       img: '/art.webp',
-      url: '/events',
+      url: '/register',
     },
     {
       name: 'Project Expo',
       key: '61',
       img: '/expo.jpeg',
-      url: '/events',
+      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
   ]
 
@@ -120,20 +120,20 @@ export default function event() {
       name: 'Slow Cyclingy',
       key: '71',
       img: '/slow.jpeg',
-      url: '/events',
+      url: '/register',
     },
     {
       name: 'Relay Sack Race',
       key: '81',
       img: '/leg.jpeg',
-      url: '/events',
+      url: '/register',
     },
 
     {
       name: 'Tug Of War',
       key: '34',
       img: '/ballon.jpg',
-      url: '/events',
+      url: '/register',
     },
     {
       name: 'Basket Ball',
@@ -145,13 +145,13 @@ export default function event() {
       name: 'Jalebi Race',
       key: '7',
       img: '/bask.jpeg',
-      url: '/events',
+      url: '/register',
     },
     {
       name: 'FoootBall',
       key: '36',
       img: '/foot.jpeg',
-      url: '/events',
+      url: '/register',
     },
   ]
 
@@ -207,7 +207,7 @@ export default function event() {
           </div>
 
           <Image
-            className="w-full esm:h-80 h-full opacity-10"
+            className="w-full esm:h-80 h-full opacity-25"
             src="/tro.jpg"
             alt="img"
             width={300}
