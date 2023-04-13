@@ -19,6 +19,7 @@ module.exports = {
       },
       height: {
         extra: '32rem',
+        none: '0rem',
         fit: '20rem',
         large: '30rem',
       },
@@ -30,6 +31,7 @@ module.exports = {
       },
       screens: {
         sm: { max: '800px' },
+        smm: { min: '540px' },
         msm: { max: '1000px' },
         esm: { max: '540px' },
       },

@@ -16,29 +16,31 @@ export default function event() {
       url: '/events',
     },
     {
-      name: 'Robo War',
-      key: '2',
-      img: '/roborace.jpeg',
-      url: '/events',
+      name: 'Dare 2 Win',
+      key: '8',
+      img: '/images.jpeg',
+      url: 'https://unstop.com/o/jcPLfAv?lb=CMPi0J9',
     },
+
     {
       name: 'E-Sport',
       key: '3',
       // img: 'https://designshack.net/wp-content/uploads/PUBG-Gaming-Esports-Logo-Template-1024x682.jpg',
       img: '/es.jpg',
-      url: '/events',
+      url: 'https://unstop.com/o/jydmBQl?lb=CMPi0J9',
     },
     {
-      name: "Rubik's Cube",
-      key: '4',
-      img: '/cube.webp',
-      url: '/events',
+      name: 'Robo War',
+      key: '2',
+      img: '/roborace.jpeg',
+      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
     },
+
     {
       name: 'Code Competition',
       key: '5',
       img: '/cod.jpeg',
-      url: '/events',
+      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
     },
     {
       name: 'Picture Patch',
@@ -47,32 +49,14 @@ export default function event() {
       url: '/events',
     },
     {
-      name: 'Viaduct',
-      key: '7',
-      img: '/vi.webp',
-      url: '/events',
-    },
-    {
-      name: 'Dare 2 Win',
-      key: '8',
-      img: '/images.jpeg',
+      name: "Rubik's Cube",
+      key: '4',
+      img: '/cube.webp',
       url: '/events',
     },
   ]
 
   const routes1 = [
-    {
-      name: 'Mono Acting',
-      key: '11',
-      img: '/mono.jpeg',
-      url: '/events',
-    },
-    {
-      name: 'Skit',
-      key: '12',
-      img: '/d.jpeg',
-      url: '/events',
-    },
     {
       name: 'Poetry',
       key: '13',
@@ -85,14 +69,9 @@ export default function event() {
       img: '/deb.png',
       url: '/events',
     },
+
     {
-      name: 'OpenMic',
-      key: '15',
-      img: '/open.jpeg',
-      url: '/events',
-    },
-    {
-      name: 'InQuizition',
+      name: 'Quiz',
       key: '16',
       img: '/quizz-min.jpg',
       url: '/events',
@@ -112,12 +91,7 @@ export default function event() {
       img: '/pos.jpeg',
       url: '/events',
     },
-    {
-      name: 'Poetry',
-      key: '19',
-      img: '/poetry.jpeg',
-      url: '/events',
-    },
+
     {
       name: 'Face Painting',
       key: '21',
@@ -130,12 +104,7 @@ export default function event() {
       img: '/sk.jpeg',
       url: '/events',
     },
-    {
-      name: 'Cartooning',
-      key: '41',
-      img: '/cartoon.jpeg',
-      url: '/events',
-    },
+
     {
       name: 'Art Gallery',
       key: '51',
@@ -158,19 +127,14 @@ export default function event() {
       url: '/events',
     },
     {
-      name: 'Leg Cricket',
+      name: 'Relay Sack Race',
       key: '81',
       img: '/leg.jpeg',
       url: '/events',
     },
+
     {
-      name: 'Gram',
-      key: '91',
-      img: '/gram.webp',
-      url: '/events',
-    },
-    {
-      name: 'Ballon Shooting',
+      name: 'Tug Of War',
       key: '34',
       img: '/ballon.jpg',
       url: '/events',
@@ -182,6 +146,12 @@ export default function event() {
       url: '/events',
     },
     {
+      name: 'Jalebi Race',
+      key: '7',
+      img: '/bask.jpeg',
+      url: '/events',
+    },
+    {
       name: 'FoootBall',
       key: '36',
       img: '/foot.jpeg',
@@ -189,26 +159,27 @@ export default function event() {
     },
   ]
 
-  const routes4 = [
-    {
-      name: 'Dance',
-      key: '37',
-      img: '/dan.jpeg',
-      url: '/events',
-    },
-    {
-      name: 'Singing',
-      key: '38',
-      img: '/sing.webp',
-      url: '/events',
-    },
-    {
-      name: 'Fashion Show',
-      key: '39',
-      img: '/fas.jpeg',
-      url: '/events',
-    },
-  ]
+  // const routes4 = [
+  //   {
+  //     name: 'Dance',
+  //     key: '37',
+  //     img: '/dan.jpeg',
+  //     url: '/events',
+  //   },
+  //   {
+  //     name: 'Singing',
+  //     key: '38',
+  //     img: '/sing.webp',
+  //     url: '/events',
+  //   },
+  //   {
+  //     name: 'Fashion Show',
+  //     key: '39',
+  //     img: '/fas.jpeg',
+  //     url: '/events',
+  //   },
+  // ]
+  const router = useRouter()
 
   return (
     <>
@@ -235,8 +206,21 @@ export default function event() {
         <Navbar />
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
-            <div className="flex items-center justify-center w-full h-3/6 pt-14">
-              <div className="text-white text-5xl  "> Events</div>
+            <div className="flex flex-col items-center justify-center w-full h-full">
+              <div>
+                <div className="text-white esm:text-5xl text-8xl  ">
+                  {' '}
+                  Events
+                </div>
+                <button
+                  onClick={() => {
+                    router.push('/register')
+                  }}
+                  className="flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
+                >
+                  Download Rule Book
+                </button>
+              </div>
             </div>
             {/* <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 esm:pb-28 esm:p-0 ">
               <div className="text-white text-3xl lg:text-2xl sm:text-sm">
@@ -251,8 +235,8 @@ export default function event() {
           </div>
 
           <Image
-            className="w-full esm:h-80 h-full"
-            src="/event.png"
+            className="w-full esm:h-80 h-full opecity-0.2"
+            src="/tro.jpg"
             alt="img"
             width={300}
             height={100}
@@ -271,6 +255,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -280,7 +265,7 @@ export default function event() {
 
         <div className=" h-full w-full bg-black p-4 ">
           <div className="text-center text-3xl text-white font-bold mt-4 ">
-            cultural
+            Cultural
             <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
               {/* {routes.map((route) => { */}
 
@@ -290,6 +275,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -309,6 +295,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -328,6 +315,7 @@ export default function event() {
                     key={route.key}
                     i1={route.img}
                     i2={route.name}
+                    i3={route.url}
                   />
                 )
               })}
@@ -335,24 +323,16 @@ export default function event() {
           </div>
         </div>
 
-        <div className=" h-full w-full bg-black p-4 ">
+        {/* <div className=" h-full w-full bg-black p-4 ">
           <div className="text-center text-3xl text-white font-bold mt-4 ">
             College Compettions
             <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
-              {/* {routes.map((route) => { */}
+            
 
-              {routes4.map((route) => {
-                return (
-                  <Event
-                    key={route.key}
-                    i1={route.img}
-                    i2={route.name}
-                  />
-                )
-              })}
+             
             </div>
           </div>
-        </div>
+        </div>  */}
       </div>
     </>
   )

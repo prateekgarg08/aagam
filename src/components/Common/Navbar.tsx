@@ -23,41 +23,90 @@ export const Navbar: FC = () => {
       name: 'Events',
       url: '/events',
     },
+    {
+      name: 'contact us',
+      url: 'events',
+    },
   ]
-
+  const clickHandler = () => {
+    setIsMobileNavActive(!isMobileNavActive)
+  }
   return (
-    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange  px-2 overflow-visible py-3">
+    <div className="sticky z-50 top-0 left-0 right-0 flex items-center justify-between bg-bgBlack text-orange overflow-visible ">
       <div className="logo bg-bgBlack">
         <Image
           src="/logo.png"
           alt=""
           width={150}
           height={100}
+          onClick={() => {
+            router.push('/')
+          }}
         />
       </div>
-      <div className="flex gap-3 items-center mr-4">
+      <div className="flex gap-3 items-center mr-4 ">
         {routes.map((route) => {
           return (
             <Link
               key={route.name}
               href={route.url}
             >
-              <span className="text-gray-400 hover:text-gray-50 duration-100 ">
+              <span className="hidden smm:block text-gray-400 hover:text-gray-50 duration-100 ">
                 {route.name}
               </span>
             </Link>
           )
         })}
-        {/* <button
+        <button
           onClick={() => {
-            router.push('/login')
+            router.push('/register')
           }}
-          className="flex items-center gap-3 font-semibold text-white rounded-full px-3 py-2 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
+          className=" items-center gap-3 font-semibold hidden smm:block  text-gray-400 rounded-full px-3 py-2 bg-gradient-to-r  smm:from-primary smm:to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
         >
-          <FaRegUserCircle className="h-6 w-6" />
-          <span className="">Login</span>
-        </button> */}
+          <span className="">Register</span>
+        </button>
       </div>
+
+      {isMobileNavActive ? (
+        <div className="bg-black h-full w-screen">
+          <AiOutlineClose
+            className=" text-2xl  text-white "
+            onClick={clickHandler}
+          />
+          <div className="w-screen h-screen flex justify-center items-center">
+            <div className="flex w-screen h-screen flex-col gap-3 items-center justify-center ">
+              {routes.map((route) => {
+                return (
+                  <Link
+                    key={route.name}
+                    href={route.url}
+                  >
+                    <span
+                      className=" text-gray-400 hover:text-gray-50 duration-100 "
+                      onClick={clickHandler}
+                    >
+                      {route.name}
+                    </span>
+                  </Link>
+                )
+              })}
+              <button
+                onClick={() => {
+                  router.push('/register')
+                }}
+                className=" items-center gap-3 font-semibold  text-gray-400 rounded-full px-3 py-2 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
+              >
+                <span className="">Register</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <AiOutlineMenu
+          className="block smm:hidden text-2xl mr-4  text-white"
+          onClick={clickHandler}
+        />
+      )}
     </div>
   )
 }

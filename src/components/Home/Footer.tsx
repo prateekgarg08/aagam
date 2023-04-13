@@ -5,8 +5,10 @@ import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 import Link, { LinkProps } from 'next/link'
+import { useRouter } from 'next/router'
 
 export const Footer: FC<{}> = ({}) => {
+  const router = useRouter()
   return (
     <div className="flex w-full h-60 bg-black p-4 flex-col">
       <div className="flex w-full h-full bg-black flex-col">
@@ -19,22 +21,31 @@ export const Footer: FC<{}> = ({}) => {
           />
         </div>
         <div className="flex esm:flex esm:flex-wrap esm:h-full esm:w-full esm:items-center esm:justify-center h-4 pr-2 gap-8 align-center justify-center p-2 esm:p-1">
-          <FaInstagram
-            className="esm:text-sm"
-            color="white"
-            fontSize={'18px'}
-          />
-          <FaTwitter
-            color="white"
-            className="esm:text-sm"
-            fontSize={'18px'}
-          />
+          <Link href="https://www.instagram.com/aagamctae/">
+            {' '}
+            <FaInstagram
+              onClick={() => {
+                router.push('https://www.instagram.com/aagamctae/')
+              }}
+              className="esm:text-xl "
+              color="white"
+              fontSize={'18px'}
+            />
+          </Link>
+
           <FaLinkedin
+            onClick={() => {
+              router.push('https://www.linkedin.com/company/aagam-ctae/')
+            }}
             color="white"
             className="esm:text-sm"
             fontSize={'18px'}
           />
+
           <FaYoutube
+            onClick={() => {
+              router.push('https://youtube.com/@AAGAMCTAE')
+            }}
             color="white"
             className="esm:text-sm"
             fontSize={'18px'}
