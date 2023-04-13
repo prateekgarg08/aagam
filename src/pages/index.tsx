@@ -38,7 +38,7 @@ export default function Home() {
 
         <HomeEvents />
         <Glimpses />
-        <Sponsor />
+        {/* <Sponsor /> */}
         <Footer />
       </div>
     </>

@@ -46,12 +46,7 @@ export default function event() {
       img: '/pic.jpeg',
       url: '/events',
     },
-    {
-      name: 'Viaduct',
-      key: '7',
-      img: '/vi.webp',
-      url: '/events',
-    },
+
     {
       name: 'Dare 2 Win',
       key: '8',
@@ -61,18 +56,6 @@ export default function event() {
   ]
 
   const routes1 = [
-    {
-      name: 'Mono Acting',
-      key: '11',
-      img: '/mono.jpeg',
-      url: '/events',
-    },
-    {
-      name: 'Skit',
-      key: '12',
-      img: '/d.jpeg',
-      url: '/events',
-    },
     {
       name: 'Poetry',
       key: '13',
@@ -92,7 +75,7 @@ export default function event() {
       url: '/events',
     },
     {
-      name: 'InQuizition',
+      name: 'Quiz',
       key: '16',
       img: '/quizz-min.jpg',
       url: '/events',
@@ -112,12 +95,7 @@ export default function event() {
       img: '/pos.jpeg',
       url: '/events',
     },
-    {
-      name: 'Poetry',
-      key: '19',
-      img: '/poetry.jpeg',
-      url: '/events',
-    },
+
     {
       name: 'Face Painting',
       key: '21',
@@ -130,12 +108,7 @@ export default function event() {
       img: '/sk.jpeg',
       url: '/events',
     },
-    {
-      name: 'Cartooning',
-      key: '41',
-      img: '/cartoon.jpeg',
-      url: '/events',
-    },
+
     {
       name: 'Art Gallery',
       key: '51',
@@ -158,19 +131,14 @@ export default function event() {
       url: '/events',
     },
     {
-      name: 'Leg Cricket',
+      name: 'Relay Sack Race',
       key: '81',
       img: '/leg.jpeg',
       url: '/events',
     },
+
     {
-      name: 'Gram',
-      key: '91',
-      img: '/gram.webp',
-      url: '/events',
-    },
-    {
-      name: 'Ballon Shooting',
+      name: 'Tug Of War',
       key: '34',
       img: '/ballon.jpg',
       url: '/events',
@@ -178,6 +146,12 @@ export default function event() {
     {
       name: 'Basket Ball',
       key: '35',
+      img: '/bask.jpeg',
+      url: '/events',
+    },
+    {
+      name: 'Jalebi Race',
+      key: '7',
       img: '/bask.jpeg',
       url: '/events',
     },
@@ -209,6 +183,7 @@ export default function event() {
   //     url: '/events',
   //   },
   // ]
+  const router = useRouter()
 
   return (
     <>
@@ -235,8 +210,21 @@ export default function event() {
         <Navbar />
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
-            <div className="flex items-center justify-center w-full h-3/6 pt-14">
-              <div className="text-white text-8xl  "> Events</div>
+            <div className="flex flex-col items-center justify-center w-full h-full">
+              <div>
+                <div className="text-white esm:text-5xl text-8xl  ">
+                  {' '}
+                  Events
+                </div>
+                <button
+                  onClick={() => {
+                    router.push('/register')
+                  }}
+                  className="flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
+                >
+                  Download Rule Book
+                </button>
+              </div>
             </div>
             {/* <div className="flex items-center justify-between w-full h-2/5 p-14 pt-0 pb-28 esm:pb-28 esm:p-0 ">
               <div className="text-white text-3xl lg:text-2xl sm:text-sm">
@@ -251,8 +239,8 @@ export default function event() {
           </div>
 
           <Image
-            className="w-full esm:h-80 h-full"
-            src="/event.png"
+            className="w-full esm:h-80 h-full tran"
+            src="/tro.jpg"
             alt="img"
             width={300}
             height={100}

@@ -73,8 +73,8 @@ export const Navbar: FC = () => {
             className=" text-2xl  text-white "
             onClick={clickHandler}
           />
-          <div className="w-screen h-screen flex items-center justify-center">
-            <div className="flex flex-col gap-3 items-center mr-4 ">
+          <div className="w-screen h-screen flex justify-center items-center">
+            <div className="flex w-screen h-screen flex-col gap-3 items-center justify-center ">
               {routes.map((route) => {
                 return (
                   <Link
