@@ -13,7 +13,7 @@ export default function event() {
       name: 'Treasure Hunt',
       key: '1',
       img: '/thunt.jpeg',
-      url: '/events',
+      url: 'https://unstop.com/o/SgVJE3z?lb=CMPi0J9',
     },
     {
       name: 'Dare 2 Win',
@@ -42,12 +42,7 @@ export default function event() {
       img: '/cod.jpeg',
       url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
     },
-    {
-      name: 'Picture Patch',
-      key: '6',
-      img: '/pic.jpeg',
-      url: '/events',
-    },
+
     {
       name: "Rubik's Cube",
       key: '4',
@@ -143,7 +138,7 @@ export default function event() {
       name: 'Basket Ball',
       key: '35',
       img: '/bask.jpeg',
-      url: '/events',
+      url: '/register',
     },
     {
       name: 'Jalebi Race',
@@ -235,7 +230,7 @@ export default function event() {
           </div>
 
           <Image
-            className="w-full esm:h-80 h-full opecity-0.2"
+            className="w-full esm:h-80 h-full opecity-0.1"
             src="/tro.jpg"
             alt="img"
             width={300}

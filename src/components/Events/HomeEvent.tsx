@@ -30,7 +30,7 @@ export const HomeEvent = (props: Im) => {
           <div className=" flex mb-4 items-center justify-center ">
             <div className="w-full h-full flex items-center justify-center">
               <div className="w-3/4 pb-2 rounded-lg bg-tertiary esm:text-xl font-bold esm:pb-0  h-full text-center text-3xl border-2 border-black ">
-                <Link href="/register"> Register </Link>
+                <Link href="/events"> Register </Link>
               </div>
             </div>
           </div>
