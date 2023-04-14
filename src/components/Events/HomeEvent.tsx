@@ -47,7 +47,7 @@ export const HomeEvent = (props: Im) => {
       <div className="w-full h-3/4">
         <Image
           src={props.i1}
-          width={100}
+          width={1000}
           height={100}
           style={{ height: '100%', width: '100%' }}
           alt="event"

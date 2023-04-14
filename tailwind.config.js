@@ -15,7 +15,7 @@ module.exports = {
         sxl: '5px 20px 25px 0px rgb(0 0 0 / 0.1), 6px 8px 10px 0px rgb(0 0 0 / 0.1);',
       },
       backgroundImage: {
-        br: "url('./regbg.png')",
+        br: "url('./tro.jpg')",
       },
       height: {
         extra: '32rem',

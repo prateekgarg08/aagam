@@ -9,12 +9,12 @@ export const HomeEvents: FC<{}> = ({}) => {
   const routes = [
     {
       name: 'Technical',
-      img: '/tec.jpg',
+      img: '/techl.jpg',
       url: '/events',
     },
     {
       name: 'Cultural',
-      img: '/cul.png',
+      img: '/cull.jpeg',
       url: '/events',
     },
     {

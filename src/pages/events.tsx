@@ -132,7 +132,7 @@ export default function event() {
     {
       name: 'Tug Of War',
       key: '34',
-      img: '/ballon.jpg',
+      img: '/tug.jpeg',
       url: '/register',
     },
     {
@@ -180,7 +180,7 @@ export default function event() {
         <Navbar />
         <div className="w-full h-full relative ">
           <div className="flex-col w-full h-full absolute">
-            <div className="flex flex-col items-center justify-center w-full h-full">
+            <div className="flex flex-col items-center justify-center w-full h-full backg">
               <div>
                 <div className="text-white esm:text-5xl text-8xl  ">
                   {' '}
@@ -188,7 +188,7 @@ export default function event() {
                 </div>
                 <Link href="/events">
                   {' '}
-                  <button className="flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all">
+                  <button className="opacity-100 flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all">
                     Download Rule Book
                   </button>
                 </Link>
@@ -217,11 +217,11 @@ export default function event() {
 
         <div className=" h-full w-full bg-black p-4 ">
           <div className="text-center text-3xl text-white font-bold mt-4 ">
-            Technical
+            Cultural
             <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
               {/* {routes.map((route) => { */}
 
-              {routes.map((route) => {
+              {routes1.map((route) => {
                 return (
                   <Event
                     key={route.key}
@@ -237,11 +237,11 @@ export default function event() {
 
         <div className=" h-full w-full bg-black p-4 ">
           <div className="text-center text-3xl text-white font-bold mt-4 ">
-            Cultural
+            Technical
             <div className="flex flex-col items-center w-full h-full xl:flex xl:flex-wrap p-5 xl:flex-row esm:flex esm:flex-col esm:items-center">
               {/* {routes.map((route) => { */}
 
-              {routes1.map((route) => {
+              {routes.map((route) => {
                 return (
                   <Event
                     key={route.key}
