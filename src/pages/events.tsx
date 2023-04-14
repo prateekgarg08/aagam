@@ -111,7 +111,7 @@ export default function event() {
       name: 'Project Expo',
       key: '61',
       img: '/expo.jpeg',
-      url: 'https://forms.gle/uZen97TW4KVtWkXC8',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSc6xdSSLz5F1zpI2uARgxABqopwzvjqxfY7DDFeFnLSsAt6VA/viewform?vc=0&c=0&w=1&flr=0',
     },
   ]
 
