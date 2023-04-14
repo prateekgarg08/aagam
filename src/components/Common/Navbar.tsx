@@ -23,10 +23,10 @@ export const Navbar: FC = () => {
       name: 'Events',
       url: '/events',
     },
-    // {
-    //   name: 'Contact us',
-    //   url: '/events',
-    // },
+    {
+      name: 'Contact us',
+      url: '/contact',
+    },
   ]
   const clickHandler = () => {
     setIsMobileNavActive(!isMobileNavActive)
