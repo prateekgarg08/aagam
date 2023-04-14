@@ -1,9 +1,5 @@
-import { useState } from 'react'
-
 export default function contact() {
   //? states
-  const [email, setEmail] = useState<string>('')
-  const [password, setPassword] = useState<string>('')
 
   //? contexts
   return (
