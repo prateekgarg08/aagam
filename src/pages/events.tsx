@@ -105,7 +105,7 @@ export default function event() {
       name: 'Art Gallery',
       key: '51',
       img: '/art.webp',
-      url: '/register',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSc6xdSSLz5F1zpI2uARgxABqopwzvjqxfY7DDFeFnLSsAt6VA/viewform?vc=0&c=0&w=1&flr=0',
     },
     {
       name: 'Project Expo',
