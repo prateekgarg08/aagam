@@ -7,7 +7,7 @@ import AboutImage from '../../../public/image.png'
 
 export const About: FC<{}> = ({}) => {
   return (
-    <div className="flex flex-col gap-16 bg-black mt-4">
+    <div className="flex flex-col mt-4 gap-16 bg-black mt-4">
       <h1 className="text-white text-5xl font-bold text-center">About</h1>
       <div className="flex msm:flex-col w-full grid-cols-5 items-center gap-10 px-12">
         <div className="col-span-2 w-1/2 msm:w-full">

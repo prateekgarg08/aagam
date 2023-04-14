@@ -29,7 +29,7 @@ export default function Home() {
           href="/favicon.ico"
         />
       </Head>
-      <div className="relative flex flex-col gap-24  min-h-screen bg-black">
+      <div className="relative flex flex-col   min-h-screen bg-black">
         <Navbar />
         <Hero />
         <About />

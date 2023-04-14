@@ -10,18 +10,46 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+   
     extend: {
-      boxShadow: {
+      boxShadow:{
+        'sh':'0px 0px 10px 10px wheat',
         sxl: '5px 20px 25px 0px rgb(0 0 0 / 0.1), 6px 8px 10px 0px rgb(0 0 0 / 0.1);',
       },
-      backgroundImage: {
-        br: "url('./tro.jpg')",
-      },
+      'animation': {
+            'text':'text 5s ease infinite',
+            'gradient': 'gradient 20s linear infinite'
+        },
+        'keyframes': {
+            'text': {
+                '0%, 100%': {
+                   'background-size':'200% 200%',
+                    'background-position': 'left center'
+                },
+                '50%': {
+                   'background-size':'200% 200%',
+                    'background-position': 'right center'
+                }
+            },
+            
+            'gradient':{
+                '0%':{
+                      'background-position':'0% 50%' 
+                    },
+                '100%':{
+                  'background-position':'50% 100%'
+                }
+            }
+        },
+        width:{
+          im: '29rem'
+        },
       height: {
         extra: '32rem',
         none: '0rem',
         fit: '20rem',
         large: '30rem',
+        im: '29rem'
       },
       fontSize: {
         no: '0rem',
@@ -41,6 +69,7 @@ module.exports = {
         secondary: '#F1781F',
         tertiary: '#DB3232',
         bgBlack: '#0A0A0A',
+        wheat: '#F5DEB3',
       },
     },
   },
