@@ -84,7 +84,7 @@ export const Footer: FC<{}> = ({}) => {
           </div>
           <div className="p-4 sm:p-2 esm:p-2 ">
             <Link
-              href="/events"
+              href="/contact"
               className="text-gray-400 text-sm hover:text-gray-50 duration-100 "
             >
               Contact us

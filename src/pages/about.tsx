@@ -8,7 +8,7 @@ import { Navbar } from '@/components/Common/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function about() {
   return (
     <>
       <Head>

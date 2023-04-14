@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 import Image from 'next/image'
 
-export default function event() {
+export default function events() {
   const routes = [
     {
       name: 'Treasure Hunt',
