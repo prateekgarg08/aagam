@@ -41,7 +41,7 @@ export default function events() {
       name: 'Code Competition',
       key: '5',
       img: '/cod.jpeg',
-      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScRoWQ3PPTS40nx8poJ-pgHo7g0Z_QL-G2jGfFM4XsznCoWQw/viewform?usp=sf_link',
     },
 
     {
