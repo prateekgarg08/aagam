@@ -32,24 +32,27 @@ export const Footer: FC<{}> = ({}) => {
               fontSize={'18px'}
             />
           </Link>
-
-          <FaLinkedin
-            onClick={() => {
-              router.push('https://www.linkedin.com/company/aagam-ctae/')
-            }}
-            color="white"
-            className="esm:text-sm"
-            fontSize={'18px'}
-          />
-
-          <FaYoutube
-            onClick={() => {
-              router.push('https://youtube.com/@AAGAMCTAE')
-            }}
-            color="white"
-            className="esm:text-sm"
-            fontSize={'18px'}
-          />
+          <Link href="https://www.linkedin.com/company/aagam-ctae/">
+            {' '}
+            <FaLinkedin
+              onClick={() => {
+                router.push('https://www.linkedin.com/company/aagam-ctae/')
+              }}
+              color="white"
+              className="esm:text-sm"
+              fontSize={'18px'}
+            />
+          </Link>
+          <Link href="https://youtube.com/@AAGAMCTAE">
+            <FaYoutube
+              onClick={() => {
+                router.push('https://youtube.com/@AAGAMCTAE')
+              }}
+              color="white"
+              className="esm:text-sm"
+              fontSize={'18px'}
+            />
+          </Link>
         </div>
       </div>
 
