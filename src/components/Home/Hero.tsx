@@ -23,8 +23,8 @@ export const Hero: FC<{}> = ({}) => {
     // </button> */}
     // </div>
 
-    <div className="flex justify-center items-center w-full h-full bg-[url('/wp2974616.jpg')] animate-gradient ">
-      <div className="w-im h-im rounded-full esm:w-60 esm:h-60 shadow-sh relative ">
+    <div className="flex justify-center items-center w-full h-screen esm:h-full bg-[url('/wp2974616.jpg')] animate-gradient ">
+      <div className="w-im h-im rounded-full mt-4 mb-4 esm:w-60 esm:h-60 shadow-sh relative ">
         <div className="absolute">
           <Image
             src="/AAGAMLOGO1.png"
