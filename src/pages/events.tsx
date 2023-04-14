@@ -34,7 +34,7 @@ export default function event() {
       name: 'Robo War',
       key: '2',
       img: '/roborace.jpeg',
-      url: 'https://unstop.com/o/d3q0HuL?lb=CMPi0J9',
+      url: 'https://unstop.com/o/uLbl3MV?lb=CMPi0J9',
     },
 
     {
