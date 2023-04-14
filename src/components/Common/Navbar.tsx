@@ -63,7 +63,7 @@ export const Navbar: FC = () => {
           }}
           className=" items-center gap-3 font-semibold hidden smm:block  text-gray-400 rounded-full px-3 py-2 bg-gradient-to-r  smm:from-primary smm:to-secondary hover:from-secondary hover:to-primary duration-300 transition-all"
         >
-          <span className="">Register</span>
+          <span className="">Register Now</span>
         </button>
       </div>
 
