@@ -72,6 +72,12 @@ export default function events() {
       img: '/quizz-min.jpg',
       url: 'https://forms.gle/uZen97TW4KVtWkXC8',
     },
+    {
+      name: 'Photography',
+      key: '09',
+      img: '/pho.webp',
+      url: 'https://docs.google.com/forms/d/1cWzTFWpYWcP1lfUQtMgJyDE9JziDXwUrbJHPACaaTj8/edit',
+    },
   ]
 
   const routes2 = [
@@ -184,7 +190,7 @@ export default function events() {
               <div>
                 <div
                   className="text-7xl font-semibold font-serif h-40
-                              bg-clip-text  text-transparent 
+                             
                               bg-gradient-to-r from-red-600 via-yellow-300 to-cyan-700 bg-clip-text text-transparent
                               animate-text"
                 >
