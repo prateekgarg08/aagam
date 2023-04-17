@@ -28,7 +28,6 @@ export default function events() {
       key: '3',
       // img: 'https://designshack.net/wp-content/uploads/PUBG-Gaming-Esports-Logo-Template-1024x682.jpg',
       img: '/es.jpg',
-      url: 'https://unstop.com/o/qOkdKVH?lb=CMPi0J9',
     },
     {
       name: 'Robo Race',
